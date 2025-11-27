@@ -1,0 +1,52 @@
+[
+  {
+    "type": "preprint",
+    "title": "Hedging against Black Swans in Day-Ahead Energy Markets",
+    "authors": "L. Aolaritei*, B. Bangoura*, S. Bolognani, N. Lanzetti, F. Dörfler",
+    "venue": "arXiv preprint",
+    "year": "2025",
+    "url_title": "https://arxiv.org/abs/2510.14328",
+    "url_paper": "https://arxiv.org/pdf/2510.14328",
+    "abstract": "Renewable generators must commit to day-ahead market bids despite uncertainty in both production and real-time prices. While forecasts provide valuable guidance, rare and unpredictable extreme events (so-called black swans) can cause substantial financial losses. This paper models the nomination problem as an instance of optimal transport-based distributionally robust optimization (OT-DRO), a principled framework that balances risk and performance by accounting not only for the severity of deviations but also for their likelihood. The resulting formulation yields a tractable, data-driven strategy that remains competitive under normal conditions while providing effective protection against extreme price spikes. Using four years of Finnish wind farm and market data, we demonstrate that OT-DRO consistently outperforms forecast-based nominations and significantly mitigates losses during black swan events."
+  },
+  {
+    "type": "preprint",
+    "title": "Strategically Robust Game Theory via Optimal Transport",
+    "authors": "N. Lanzetti*, S. Fricker*, S. Bolognani, F. Dörfler, D. Paccagnan",
+    "venue": "arXiv preprint",
+    "year": "2025",
+    "url_title": "https://arxiv.org/abs/2507.15325",
+    "url_paper": "https://arxiv.org/pdf/2507.15325",
+    "abstract": "In many game-theoretic settings, agents are challenged with taking decisions against the uncertain behavior exhibited by others. Often, this uncertainty arises from multiple sources, e.g., incomplete information, limited computation, bounded rationality. While it may be possible to guide the agents' decisions by modeling each source, their joint presence makes this task particularly daunting. Toward this goal, it is natural for agents to seek protection against deviations around the emergent behavior itself, which is ultimately impacted by all the above sources of uncertainty. To do so, we propose that each agent takes decisions in face of the worst-case behavior contained in an ambiguity set of tunable size, centered at the emergent behavior so implicitly defined. This gives rise to a novel equilibrium notion, which we call strategically robust equilibrium. Building on its definition, we show that, when judiciously operationalized via optimal transport, strategically robust equilibria (i) are guaranteed to exist under the same assumptions required for Nash equilibria; (ii) interpolate between Nash and security strategies; (iii) come at no additional computational cost compared to Nash equilibria. Through a variety of experiments, including bi-matrix games, congestion games, and Cournot competition, we show that strategic robustness protects against uncertainty in the opponents' behavior and, surprisingly, often results in higher equilibrium payoffs - an effect we refer to as coordination via robustification."
+  },
+  {
+    "type": "preprint",
+    "title": "Gradient-flow SDEs Have Unique Transient Population Dynamics",
+    "authors": "V. Guan, J. Janssen, N. Lanzetti, A. Terpin, G. Schiebinger, E. Robeva",
+    "venue": "arXiv preprint",
+    "year": "2025",
+    "url_title": "https://arxiv.org/abs/2505.21770",
+    "url_paper": "https://arxiv.org/pdf/2505.21770",
+    "abstract": "Identifying the drift and diffusion of an SDE from its population dynamics is a notoriously challenging task. Researchers in machine learning and single cell biology have only been able to prove a partial identifiability result: for potential-driven SDEs, the gradient-flow drift can be identified from temporal marginals if the Brownian diffusivity is already known. Existing methods therefore assume that the diffusivity is known a priori, despite it being unknown in practice. We dispel the need for this assumption by providing a complete characterization of identifiability: the gradient-flow drift and Brownian diffusivity are jointly identifiable from temporal marginals if and only if the process is observed outside of equilibrium. Given this fundamental result, we propose nn-APPEX, the first Schrödinger Bridge-based inference method that can simultaneously learn the drift and diffusion of gradient-flow SDEs solely from observed marginals. Extensive numerical experiments show that nn-APPEX's ability to adjust its diffusion estimate enables accurate inference, while previous Schrödinger Bridge methods obtain biased drift estimates due to their assumed, and likely incorrect, diffusion."
+  },
+  {
+    "type": "preprint",
+    "title": "Optimality of Linear Policies for Distributionally Robust Linear Quadratic Gaussian Regulator with Stationary Distributions",
+    "authors": "N. Lanzetti*, A. Terpin*, and F. Dörfler",
+    "venue": "arXiv preprint",
+    "year": "2025",
+    "url_title": "https://arxiv.org/abs/2410.22826",
+    "url_paper": "https://arxiv.org/pdf/2410.22826.pdf",
+    "abstract": "We prove that output-feedback linear policies remain optimal for solving the Linear Quadratic Gaussian regulation problem in the face of worst-case process and measurement noise distributions when these are independent, stationary, and known to be within a radius (in the Wasserstein sense) to some reference zero-mean Gaussian noise distributions."
+	},
+  {
+    "type": "preprint",
+    "title": "Variational Analysis in the Wasserstein Space",
+    "authors": "N. Lanzetti*, A. Terpin*, F. Dörfler",
+    "venue": "arXiv preprint",
+    "year": "2024",
+    "url_title": "https://arxiv.org/abs/2406.10676",
+    "url_paper": "https://arxiv.org/pdf/2406.10676",
+    "abstract": "We study optimization problems whereby the optimization variable is a probability measure. Since the probability space is not a vector space, many classical and powerful methods for optimization (e.g., gradients) are of little help. Thus, one typically resorts to the abstract machinery of infinite-dimensional analysis or other ad-hoc methodologies, not tailored to the probability space, which however involve projections or rely on convexity-type assumptions. We believe instead that these problems call for a comprehensive methodological framework for calculus in probability spaces. In this work, we combine ideas from optimal transport, variational analysis, and Wasserstein gradient flows to equip the Wasserstein space (i.e., the space of probability measures endowed with the Wasserstein distance) with a variational structure, both by combining and extending existing results and introducing novel tools. Our theoretical analysis culminates in very general necessary optimality conditions for optimality. Notably, our conditions (i) resemble the rationales of Euclidean spaces, such as the Karush-Kuhn-Tucker and Lagrange conditions, (ii) are intuitive, informative, and easy to study, and (iii) yield closed-form solutions or can be used to design computationally attractive algorithms. We believe this framework lays the foundation for new algorithmic and theoretical advancements in the study of optimization problems in probability spaces, which we exemplify with numerous case studies and applications to machine learning, drug discovery, and distributionally robust optimization."
+  }
+]

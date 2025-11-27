@@ -1,0 +1,74 @@
+[
+	
+	{
+		"type": "conference",
+		"title": "The Impact of Recommendation Systems on Opinion Dynamics: Microscopic versus Macroscopic Effects",
+		"authors": "N. Lanzetti, F. Dörfler, and N. Pagan",
+		"venue": "IEEE Conference on Decision and Control (CDC)",
+		"year": "2023",
+		"url_title": "https://ieeexplore.ieee.org/document/10383957",
+		"url_paper": "https://arxiv.org/pdf/2309.08967",
+		"abstract": "Recommendation systems are widely used in web services, such as social networks and e-commerce platforms, to serve personalized content to the users and, thus, enhance their experience. While personalization assists users in navigating through the available options, there have been growing concerns regarding its repercussions on the users and their opinions. Examples of negative impacts include the emergence of filter bubbles and the amplification of users' confirmation bias, which can cause opinion polarization and radicalization. In this paper, we study the impact of recommendation systems on users, both from a microscopic (i.e., at the level of individual users) and a macroscopic (i.e., at the level of a homogenous population) perspective. Specifically, we build on recent work on the interactions between opinion dynamics and recommendation systems to propose a model for this closed loop, which we then study both analytically and numerically. Among others, our analysis reveals that shifts in the opinions of individual users do not always align with shifts in the opinion distribution of the population. In particular, even in settings where the opinion distribution appears unaltered (e.g., measured via surveys across the population), the opinion of individual users might be significantly distorted by the recommendation system."
+	},
+	{
+		"type": "conference",
+		"title": "Capture, Propagate, and Control Distributional Uncertainty",
+		"authors": "L. Aolaritei, N. Lanzetti, and F. Dörfler",
+		"venue": "IEEE Conference on Decision and Control (CDC)",
+		"year": "2023",
+		"url_title": "https://ieeexplore.ieee.org/document/10383424",
+		"url_paper": "https://arxiv.org/pdf/2304.02235",
+		"abstract": "We study stochastic dynamical systems in settings where only partial statistical information about the noise is available, e.g., in the form of a limited number of noise realizations. Such systems are particularly challenging to analyze and control, primarily due to an absence of a distributional uncertainty model which: (1) is expressive enough to capture practically relevant scenarios; (2) can be easily propagated through system maps; (3) is invariant under propagation; and (4) allows for computationally tractable control actions. In this paper, we propose to model distributional uncertainty via Optimal Transport ambiguity sets and show that such modeling choice satisfies all of the above requirements. We then specialize our results to stochastic LTI systems, and start by showing that the distributional uncertainty can be efficiently captured, with high probability, within an Optimal Transport ambiguity set on the space of noise trajectories. Then, we show that such ambiguity sets propagate exactly through the system dynamics, giving rise to stochastic tubes that contain, with high probability, all trajectories of the stochastic system. Finally, we show that the control task is very interpretable, unveiling an interesting decomposition between the roles of the feedforward and the feedback control terms. Our results are actionable and successfully applied in stochastic reachability analysis and in trajectory planning under distributional uncertainty."
+	},
+	{
+		"type": "conference",
+		"title": "Strategic Interactions in Multi-modal Mobility Systems: A Game-Theoretic Perspective",
+		"authors": "G. Zardini*, N. Lanzetti*, G. Belgioioso, C. Hartnik, S. Bolognani, F. Dörfler, E. Frazzoli",
+		"venue": "IEEE Intelligent Transportation Systems Conference (ITSC)",
+		"year": "2023",
+		"url_title": "https://ieeexplore.ieee.org/document/10421926",
+		"url_paper": "https://arxiv.org/pdf/2308.04820",
+		"abstract": "The evolution of existing transportation systems,mainly driven by urbanization and increased availability of mobility options, such as private, profit-maximizing ride-hailing companies, calls for tools to reason about their design and regulation. To study this complex socio-technical problem, one needs to account for the strategic interactions of the heterogeneous stakeholders involved in the mobility ecosystem and analyze how they influence the system. In this paper, we focus on the interactions between citizens who compete for the limited resources of a mobility system to complete their desired trip. Specifically, we present a game-theoretic framework for multi-modal mobility systems, where citizens, characterized by heterogeneous preferences, have access to various mobility options and seek individually-optimal decisions. We study the arising game and prove the existence of an equilibrium, which can be efficiently computed via a convex optimization problem. Through both an analytical and a numerical case study for the classic scenario of Sioux Falls, USA, we illustrate the capabilities of our model and perform sensitivity analyses. Importantly, we show how to embed our framework into a larger game among stakeholders of the mobility ecosystem (e.g., municipality, Mobility Service Providers, and citizens), effectively giving rise to tools to inform strategic interventions and policy-making in the mobility ecosystem."
+	},
+	{
+		"type": "conference",
+		"title": "Stochastic Wasserstein Gradient Flows using Streaming Data with an Application in Predictive Maintenance",
+		"authors": "N. Lanzetti, E. Balta, D. Liao-McPherson, and F. Dörfler",
+		"venue": "IFAC World Congress",
+		"year": "2022",
+		"url_title": "https://arxiv.org/abs/2301.12461",
+		"url_paper": "https://arxiv.org/pdf/2301.12461.pdf",
+		"abstract": "We study estimation problems in safety-critical applications with streaming data. Since estimation problems can be posed as optimization problems in the probability space, we devise a stochastic projected Wasserstein gradient flow that keeps track of the belief of the estimated quantity and can consume samples from online data. We show the convergence properties of our algorithm. Our analysis combines recent advances in the Wasserstein space and its differential structure with more classical stochastic gradient descent. We apply our methodology for predictive maintenance of safety-critical processes: Our approach is shown to lead to superior performance when compared to classical least squares, enabling, among others, improved robustness for decision-making."
+	},
+	{
+		"type": "conference",
+		"title": "Modeling of Political Systems using Wasserstein Gradient Flows",
+		"authors": "N. Lanzetti*, J. Hajar*, and F. Dörfler",
+		"venue": "IEEE Conference on Decision and Control (CDC)",
+		"year": "2022",
+		"url_title": "https://ieeexplore.ieee.org/document/9992779",
+		"url_paper": "https://arxiv.org/pdf/2209.05382",
+		"abstract": "The study of complex political phenomena such as parties' polarization calls for mathematical models of political systems. In this paper, we aim at modeling the time evolution of a political system whereby various parties selfishly interact to maximize their political success (e.g., number of votes). More specifically, we identify the ideology of a party as a probability distribution over a one-dimensional real-valued ideology space, and we formulate a gradient flow in the probability space (also called a Wasserstein gradient flow) to study its temporal evolution. We characterize the equilibria of the arising dynamic system, and establish local convergence under mild assumptions. We calibrate and validate our model with real-world time-series data of the time evolution of the ideologies of the Republican and Democratic parties in the US Congress. Our framework allows to rigorously reason about various political effects such as parties' polarization and homogeneity. Among others, our mechanistic model can explain why political parties become more polarized and less inclusive with time (their distributions get tighter), until all candidates in a party converge asymptotically to the same ideological position."
+	},
+	{
+		"type": "conference",
+		"title": "Game Theory to Study Interactions between Mobility Stakeholders",
+		"authors": "G. Zardini*, N. Lanzetti*, L. Guerrini, E. Frazzoli, and F. Dörfler",
+		"venue": "IEEE Intelligent Transportation Systems Conference (ITSC)",
+		"year": "2021",
+		"url_title": "https://ieeexplore.ieee.org/document/9564501",
+		"url_paper": "https://arxiv.org/pdf/2104.10394",
+		"abstract": "Increasing urbanization and exacerbation of sustainability goals threaten the operational efficiency of current transportation systems and confront cities with complex choices with huge impact on future generations. At the same time, the rise of private, profit-maximizing Mobility Service Providers leveraging public resources, such as ride-hailing companies, entangles current regulation schemes. This calls for tools to study such complex socio-technical problems. In this paper, we provide a game-theoretic framework to study interactions between stakeholders of the mobility ecosystem, modeling regulatory aspects such as taxes and public transport prices, as well as operational matters for Mobility Service Providers such as pricing strategy, fleet sizing, and vehicle design. Our framework is modular and can readily accommodate different types of Mobility Service Providers, actions of municipalities, and low-level models of customers choices in the mobility system. Through both an analytical and a numerical case study for the city of Berlin, Germany, we showcase the ability of our framework to compute equilibria of the problem, to study fundamental tradeoffs, and to inform stakeholders and policy makers on the effects of interventions. Among others, we show tradeoffs between customers satisfaction, environmental impact, and public revenue, as well as the impact of strategic decisions on these metrics.",
+        "notes": "best paper award (1st Place)"
+	},
+	{
+		"type": "conference",
+		"title": "On the Co-Design of AV-Enabled Mobility Systems",
+		"authors": "G. Zardini, N. Lanzetti, M. Salazar, A. Censi, E. Frazzoli, and M. Pavone",
+		"venue": "IEEE Intelligent Transportation Systems Conference (ITSC)",
+		"year": "2020",
+		"url_title": "https://ieeexplore.ieee.org/document/9294499",
+		"url_paper": "https://arxiv.org/pdf/2003.04739",
+		"abstract": "The design of autonomous vehicles (AVs) and the design of AV-enabled mobility systems are closely coupled. Indeed, knowledge about the intended service of AVs would impact their design and deployment process, whilst insights about their technological development could significantly affect transportation management decisions. This calls for tools to study such a coupling and co-design AVs and AV-enabled mobility systems in terms of different objectives. In this paper, we instantiate a framework to address such co-design problems. In particular, we leverage the recently developed theory of co-design to frame and solve the problem of designing and deploying an intermodal Autonomous Mobility-on-Demand system, whereby AVs service travel demands jointly with public transit, in terms of fleet sizing, vehicle autonomy, and public transit service frequency. Our framework is modular and compositional, allowing one to describe the design problem as the interconnection of its individual components and to tackle it from a system-level perspective. To showcase our methodology, we present a real-world case study for Washington D.C., USA. Our work suggests that it is possible to create user-friendly optimization tools to systematically assess costs and benefits of interventions, and that such analytical techniques might gain a momentous role in policy-making in the future."
+	}
+]

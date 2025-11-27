@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal website of Your Name" />
+  <title>Your Name</title>
+
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --text: #1a1a1a;
+      --accent: #0077cc;
+      --max-width: 700px;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      /* normal document flow: header at top, main below */
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid rgba(15,23,42,0.04);
+      background: transparent;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(6px);
+      z-index: 20;
+    }
+
+    header .site {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.25rem;
+    }
+
+    header .tagline {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #555;
+      font-weight: 400;
+    }
+
+    main {
+      max-width: var(--max-width);
+      padding: 2rem 1.25rem;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: #555;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 1rem 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      margin-top: 2rem;
+    }
+
+    /* Tabs (top horizontal style) */
+    .tabs {
+      margin-top: 1rem;
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+      overflow: visible;
+      text-align: left;
+    }
+
+    .tab-list {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.125rem 0;
+      background: transparent;
+    }
+
+    .tab {
+      appearance: none;
+      -webkit-appearance: none;
+      border: 0;
+      background: transparent;
+      padding: 0.6rem 0.9rem;
+      margin: 0;
+      cursor: pointer;
+      color: #334155;
+      font-weight: 600;
+      border-radius: 0;
+      transition: color 120ms ease, border-color 120ms ease;
+      border-bottom: 3px solid transparent;
+    }
+
+    .tab[aria-selected="true"] {
+      background: transparent;
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .tab:focus {
+      outline: 3px solid rgba(0,119,204,0.12);
+      outline-offset: 3px;
+      border-bottom-color: rgba(0,119,204,0.2);
+    }
+
+    .tab-panel {
+      padding: 1rem 0 0 0;
+    }
+
+    .muted {
+      color: #556;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="site">
+      <h1>Your Name</h1>
+      <p class="tagline">Short tagline or role — e.g. Researcher in Optimization & Control</p>
+    </div>
+
+    <div class="tabs" role="application" aria-label="Main tabs">
+      <div class="tab-list" role="tablist" aria-label="Sections">
+        <button class="tab" role="tab" id="tab-home" aria-controls="panel-home" aria-selected="true">Home</button>
+        <button class="tab" role="tab" id="tab-publications" aria-controls="panel-publications" aria-selected="false">Publications</button>
+        <button class="tab" role="tab" id="tab-presentations" aria-controls="panel-presentations" aria-selected="false">Presentations</button>
+        <button class="tab" role="tab" id="tab-teaching" aria-controls="panel-teaching" aria-selected="false">Teaching</button>
+      </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="panel-home" class="tab-panel" role="tabpanel" aria-labelledby="tab-home">
+      <h3>Welcome</h3>
+      <p class="muted">This is the home section — a brief bio and links.</p>
+      <p>I am a researcher interested in optimization, control, and applied mathematics. Use the tabs to explore my publications, presentations, and teaching materials.</p>
+    </section>
+
+      <section id="panel-publications" class="tab-panel" role="tabpanel" aria-labelledby="tab-publications" hidden>
+        <h3>Publications</h3>
+        <p class="muted">Selected peer-reviewed articles and preprints.</p>
+        <ol>
+          <li><strong>Title A.</strong> Journal, Year — Short 1-line description.</li>
+          <li><strong>Title B.</strong> Conference, Year — Short 1-line description.</li>
+          <li><strong>Title C.</strong> Preprint, Year — Short 1-line description.</li>
+        </ol>
+        <p>If you'd like a BibTeX or full list, consider adding a separate page or a downloadable file.</p>
+      </section>
+
+      <section id="panel-presentations" class="tab-panel" role="tabpanel" aria-labelledby="tab-presentations" hidden>
+        <h3>Presentations</h3>
+        <p class="muted">Talks and slides from recent conferences.</p>
+        <ul>
+          <li>Talk: "Optimization in Practice" — Conference 2024 — <a href="#">Slides (PDF)</a></li>
+          <li>Invited talk: "Control for Robotics" — Workshop 2023 — <a href="#">Slides (PDF)</a></li>
+        </ul>
+      </section>
+
+      <section id="panel-teaching" class="tab-panel" role="tabpanel" aria-labelledby="tab-teaching" hidden>
+        <h3>Teaching</h3>
+        <p class="muted">Courses, materials, and office hours.</p>
+        <ul>
+          <li>Course: Optimization I — Syllabus, slides, assignments.</li>
+          <li>Course: Intro to Control — Labs and solutions.</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      © 2025 Your Name • <a href="mailto:your@email.com">your@email.com</a>
+    </footer>
+  </main>
+
+  <script>
+    // Accessible tabs: keyboard support and deep-linking via hash
+    (function () {
+      const tabs = Array.from(document.querySelectorAll('.tab'));
+      const panels = tabs.map(t => document.getElementById(t.getAttribute('aria-controls')));
+
+      function activate(index, pushState = true) {
+        tabs.forEach((t, i) => {
+          const selected = i === index;
+          t.setAttribute('aria-selected', selected ? 'true' : 'false');
+          panels[i].hidden = !selected;
+          if (selected) {
+            t.focus({ preventScroll: true });
+          }
+        });
+        if (pushState) {
+          const id = tabs[index].id.replace('tab-', '');
+          history.replaceState(null, '', '#' + id);
+        }
+      }
+
+      tabs.forEach((tab, i) => {
+        tab.addEventListener('click', () => activate(i));
+        tab.addEventListener('keydown', (ev) => {
+          const key = ev.key;
+          if (key === 'ArrowRight' || key === 'ArrowLeft') {
+            ev.preventDefault();
+            const dir = key === 'ArrowRight' ? 1 : -1;
+            const next = (i + dir + tabs.length) % tabs.length;
+            activate(next);
+          } else if (key === 'Home') {
+            ev.preventDefault();
+            activate(0);
+          } else if (key === 'End') {
+            ev.preventDefault();
+            activate(tabs.length - 1);
+          }
+        });
+      });
+
+      // On load, pick tab from hash if present
+      const hash = location.hash.replace('#', '');
+      const start = tabs.findIndex(t => t.id === 'tab-' + hash);
+      activate(start >= 0 ? start : 0, false);
+
+      // Handle back/forward
+      window.addEventListener('hashchange', () => {
+        const h = location.hash.replace('#', '');
+        const idx = tabs.findIndex(t => t.id === 'tab-' + h);
+        if (idx >= 0) activate(idx, false);
+      });
+    })();
+  </script>
+</body>
+</html>

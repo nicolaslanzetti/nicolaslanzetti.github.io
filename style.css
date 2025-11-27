@@ -1,0 +1,166 @@
+body {
+  background: #FFFFFF;
+  font-family: Optima;
+  max-width: 1000px;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+/* Responsive typography using clamp() */
+/* html { */
+  /* root font-size: min 14px on small screens, preferred scales with viewport, max 16px on large screens */
+  /* font-size: clamp(14px, 1.6vw, 16px);
+} */
+
+/* p, li { */
+  /* paragraph text scales mildly with viewport */
+  /* font-size: clamp(0.9rem, 1.6vw, 1rem); */
+/* } */
+
+/* h1 { font-size: clamp(1.4rem, 5vw, 2.2rem); }
+h2 { font-size: clamp(1.05rem, 3.2vw, 1.4rem); }
+h3 { font-size: clamp(0.95rem, 2.2vw, 1.05rem); } */
+
+header {
+  background: #FFFFFF;
+  font-family: Optima;
+  font-weight: bold;
+}
+
+footer {
+  background: #FFFFFF;
+  font-family: Optima;
+  font-weight: bold;
+  margin: 2em 0px 10em 0px;
+}
+
+h1, h2, h3, p, li {
+  color: #484848;
+}
+
+/* .site-title { font-size: clamp(1.2rem, 4.5vw, 2rem); margin: 0.2rem 0; }
+.icon-lg { font-size: clamp(0.9rem, 3.2vw, 1.2rem); vertical-align: middle; } */
+
+h1 {
+  margin: 1em 0px 1em 0px;
+}
+
+h2 {
+  margin: 2em 0px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #B22222;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: #484848;
+}
+
+nav ul li:not(:first-child):before {
+    padding: 1em;
+    margin: 0px;
+    content: "|";
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #484848;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: #484848;
+}
+
+footer ul li:not(:first-child):before {
+    padding: 1em;
+    margin: 0px;
+    content: "|";
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #484848;
+}
+
+footer img {
+  display:inline-block;
+  vertical-align:middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+.bounded{
+  width: 380px;
+}
+
+table {
+    font-family: Optima;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th {
+    vertical-align: top;
+    color: #484848;
+}
+
+table, td, th {
+    border: 0px solid #dddddd;
+    text-align: justify;
+    padding: 0px;
+}
+
+.button {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  color: #B22222;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 10px;
+  text-align: center;
+  font-family: Optima;
+  font-size: 12pt;
+}
+
+.boxabstract {
+  width: 100%;
+  padding: 5px 5px;
+  text-align: justify;
+  background-color: Gainsboro;
+  margin-top: 10px;
+}
+
+.boxcitation {
+  width: 100%;
+  padding: 5px 5px;
+  text-align: justify;
+  background-color: Gainsboro;
+  margin-top: 10px;
+  text-indent: -40px;
+  padding-left: 45px
+}
+
+/* Ensure owner name appears bold even if the site's font lacks a bold face */
+.owner-name {
+  font-weight: 700;
+  font-weight: bold;
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "type": "journal",
+    "title": "Distributional Uncertainty Propagation via Optimal Transport",
+    "authors": "L. Aolaritei*, N. Lanzetti*, H. Chen, F. Dörfler",
+    "venue": "IEEE Transactions on Automatic Control",
+    "year": "2025",
+    "url_title": "https://ieeexplore.ieee.org/document/10989586",
+    "url_paper": "https://arxiv.org/pdf/2205.00343",
+    "abstract": "This paper addresses the limitations of standard uncertainty models, e.g., robust (norm-bounded) and stochastic (one fixed distribution, e.g., Gaussian), and proposes to model uncertainty via Optimal Transport (OT) ambiguity sets. These constitute a very rich uncertainty model, which enjoys many desirable geometrical, statistical, and computational properties, and which: (1) naturally generalizes both robust and stochastic models, and (2) captures many additional real-world uncertainty phenomena (e.g., black swan events). Our contributions show that OT ambiguity sets are also analytically tractable: they propagate easily and intuitively through linear and nonlinear (possibly corrupted by noise) transformations, and the result of the propagation is again an OT ambiguity set or can be tightly upper bounded by an OT ambiguity set. In the context of dynamical systems, our results allow us to consider multiple sources of uncertainty (e.g., initial condition, additive noise, multiplicative noise) and to capture in closed-form, via an OT ambiguity set, the resulting uncertainty in the state at any future time. Our results are actionable, interpretable, and readily employable in a great variety of computationally tractable control and estimation formulations. To highlight this, we study three applications in trajectory planning, consensus algorithms, and least squares estimation. We conclude the paper with a list of exciting open problems enabled by our results."
+  },
+  {
+    "type": "journal",
+    "title": "First-order Conditions for Optimization in the Wasserstein Space",
+    "authors": "N. Lanzetti, S. Bolognani, F. Dörfler",
+    "venue": "SIAM Journal on Mathematics of Data Science",
+    "year": "2025",
+    "url_title": "https://epubs.siam.org/doi/10.1137/23M156687X",
+    "url_paper": "https://arxiv.org/pdf/2209.12197",
+    "abstract": "We study first-order optimality conditions for constrained optimization in the Wasserstein space, whereby one seeks to minimize a real-valued function over the space of probability measures endowed with the Wasserstein distance. Our analysis combines recent insights on the geometry and the differential structure of the Wasserstein space with more classical calculus of variations. We show that simple rationales such as “setting the derivative to zero” and “gradients are aligned at optimality” carry over to the Wasserstein space. We deploy our tools to study and solve optimization problems in the setting of distributionally robust optimization and statistical inference. The generality of our methodology allows us to naturally deal with functionals, such as mean-variance, Kullback–Leibler divergence, and Wasserstein distance, which are traditionally difficult to study in a unified framework.",
+    "notes": "featured in the most read articles in the SIAM Journal on Mathematics of Data Science"
+  },
+  {
+    "type": "journal",
+    "title": "Dynamic Programming in Probability Spaces via Optimal Transport",
+    "authors": "A. Terpin*, N. Lanzetti*, and F. Dörfler",
+    "venue": "SIAM Journal on Control and Optimization",
+    "year": "2024",
+    "url_title": "https://epubs.siam.org/doi/10.1137/23M1560902",
+    "url_paper": "https://arxiv.org/pdf/2302.13550.pdf",
+    "abstract": "We study discrete-time finite-horizon optimal control problems in probability spaces, whereby the state of the system is a probability measure. We show that, in many instances, the solution of dynamic programming in probability spaces results from two ingredients: (i) the solution of dynamic programming in the ground space and (ii) the solution of an optimal transport problem. From a multi-agent control perspective, a separation principle holds: low-level control of the agents of the fleet and fleet-level control are decoupled.",
+    "notes": "featured in the most read articles in the SIAM Journal on Control and Optimization"
+  },
+  {
+    "type": "journal",
+    "title": "On the Interplay between Self-driving Cars and Public Transportation",
+    "authors": "N. Lanzetti, M. Schiffer, M. Ostrovksy, and M. Pavone",
+    "venue": "IEEE Transactions on Control of Network Systems",
+    "year": "2023",
+    "url_title": "https://ieeexplore.ieee.org/document/10337616",
+    "url_paper": "https://arxiv.org/pdf/2109.01627.pdf",
+    "abstract": "Cities worldwide struggle with overloaded transportation systems and their externalities, such as traffic congestion and emissions. The emerging autonomous transportation technology has a potential to alleviate these issues. Yet, the decisions of profit-maximizing operators running large autonomous fleets could have a negative impact on other stakeholders. We propose a unified framework to study the interplay among mobility service providers, public transport authorities, and customers, and apply it to data for the city of Berlin."
+  },
+  {
+    "type": "journal",
+    "title": "Co-Design to Enable User-Friendly Tools to Assess the Impact of Future Mobility Solutions",
+    "authors": "G. Zardini, N. Lanzetti, A. Censi, E. Frazzoli, and M. Pavone",
+    "venue": "IEEE Transactions on Network Science and Engineering",
+    "year": "2022",
+    "url_title": "https://arxiv.org/abs/2008.08975",
+    "url_paper": "https://arxiv.org/pdf/2008.08975.pdf",
+    "abstract": "This paper presents a framework to co-design future mobility solutions and the mobility systems they enable. We frame and solve the problem of designing and deploying an intermodal mobility system where autonomous vehicles service travel demands jointly with public transit, and showcase a real-world case study for Washington D.C."
+  },
+  {
+    "type": "journal",
+    "title": "Analysis and Control of Autonomous Mobility-on-Demand Systems",
+    "authors": "G. Zardini*, N. Lanzetti*, M. Pavone, and E. Frazzoli",
+    "venue": "Annual Review of Control, Robotics, and Autonomous Systems",
+    "year": "2022",
+    "url_title": "https://www.annualreviews.org/doi/abs/10.1146/annurev-control-042920-012811",
+    "url_paper": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-control-042920-012811",
+    "abstract": "We provide a comprehensive review of methods and tools to model and solve problems related to Autonomous Mobility-on-Demand systems and survey modeling aspects, solution methods, and performance metrics."
+  },
+  {
+    "type": "journal",
+    "title": "Optimal Low-level Control Strategies for a High-performance Hybrid Electric Power Unit",
+    "authors": "C. Balerna, N. Lanzetti, M. Salazar, A. Cerofolini, and C. Onder",
+    "venue": "Applied Energy",
+    "year": "2020",
+    "url_title": "https://www.sciencedirect.com/science/article/pii/S0306261920307601",
+    "url_paper": "https://reader.elsevier.com/reader/sd/pii/S0306261920307601?token=...",
+    "abstract": "We present models and optimization algorithms to compute optimal low-level control strategies for hybrid electric powertrains and validate our approach on a high-fidelity simulator."
+  },
+  {
+    "type": "journal",
+    "title": "Intermodal Autonomous Mobility-on-Demand",
+    "authors": "M. Salazar, N. Lanzetti, F. Rossi, M. Schiffer, and M. Pavone",
+    "venue": "IEEE Transactions on Intelligent Transportation Systems",
+    "year": "2019",
+    "url_title": "https://ieeexplore.ieee.org/abstract/document/8894439",
+    "url_paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8894439",
+    "abstract": "We study models and coordination policies for intermodal AMoD and design pricing and tolling schemes to recover social optimum under selfish agents, with case studies for NYC and Berlin."
+  }
+]

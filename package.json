@@ -1,0 +1,10 @@
+{
+  "name": "website-sync",
+  "version": "1.0.0",
+  "description": "Small helper to sync header/footer into HTML pages",
+  "scripts": {
+    "sync": "node scripts/sync-header-footer.js"
+  },
+  "author": "",
+  "license": "MIT"
+}

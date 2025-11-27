@@ -1,0 +1,578 @@
+
+
+
+
+
+
+
+
+    
+
+
+        <h3>Journal papers</h3>
+        <p><ul style="list-style-type:none; padding:0">
+
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2205.00343" target="_blank">Distributional Uncertainty Propagation via Optimal Transport</a></em><br>
+        L. Aolaritei*, <b>N. Lanzetti</b>*, H. Chen, and F. D&oumlrfler.<br>
+        IEEE Transaction on Automatic Control, 2025.<br>
+        <button class="button" onclick="myFunction('aolariteiLanzetti2023')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2205.00343.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('aolariteiLanzetti2023bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <div class="boxabstract" id="aolariteiLanzetti2023" style="Display:none">
+            This paper addresses the limitations of standard uncertainty models, e.g., robust (norm-bounded) and stochastic (one fixed distribution, e.g., Gaussian), and proposes to model uncertainty via Optimal Transport (OT) ambiguity sets. These constitute a very rich uncertainty model, which enjoys many desirable geometrical, statistical, and computational properties, and which: (1) naturally generalizes both robust and stochastic models, and (2) captures many additional real-world uncertainty phenomena (e.g., black swan events). Our contributions show that OT ambiguity sets are also analytically tractable: they propagate easily and intuitively through linear and nonlinear (possibly corrupted by noise) transformations, and the result of the propagation is again an OT ambiguity set or can be tightly upper bounded by an OT ambiguity set. In the context of dynamical systems, our results allow us to consider multiple sources of uncertainty (e.g., initial condition, additive noise, multiplicative noise) and to capture in closed-form, via an OT ambiguity set, the resulting uncertainty in the state at any future time. Our results are actionable, interpretable, and readily employable in a great variety of computationally tractable control and estimation formulations. To highlight this, we study three applications in trajectory planning, consensus algorithms, and least squares estimation. We conclude the paper with a list of exciting open problems enabled by our results.
+        </div>
+        <div class="boxcitation" id="aolariteiLanzetti2023bib" style="Display:none">
+        @article{AolariteiLanzetti2023, <br>
+                title = {Distributional Uncertainty Propagation via Optimal Transport}, <br>
+                author = {Aolaritei, Liviu and Lanzetti, Nicolas and Chen, Hongruyu and D{\"o}rfler, Florian}, <br>
+                journal = {arXiv preprint arXiv:2205.00343}, <br>
+                year = {2023}}
+        </div>
+        </li>
+        
+        <li style="margin:10px 0px">
+            <em><a href="https://epubs.siam.org/doi/10.1137/23M156687X" target="_blank">First-order Conditions for Optimization in the Wasserstein Space</a></em><br>
+        <b>N. Lanzetti</b>, S. Bolognani, and F. D&oumlrfler.<br>
+        SIAM Journal on Mathematics of Data Science, 2025.<br>
+        <button class="button" onclick="myFunction('lanzetti2025')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2209.12197.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('lanzetti2025bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <div class="boxabstract" id="lanzetti2025" style="Display:none">
+            We study first-order optimality conditions for constrained optimization in the Wasserstein space, whereby one seeks to minimize a real-valued function over the space of probability measures endowed with the Wasserstein distance. Our analysis combines recent insights on the geometry and the differential structure of the Wasserstein space with more classical calculus of variations. We show that simple rationales such as "setting the derivative to zero" and "gradients are aligned at optimality" carry over to the Wasserstein space. We deploy our tools to study and solve optimization problems in the setting of distributionally robust optimization and statistical inference. The generality of our methodology allows us to naturally deal with functionals, such as mean-variance, Kullback-Leibler divergence, and Wasserstein distance, which are traditionally difficult to study in a unified framework.
+        </div>
+        <div class="boxcitation" id="lanzetti2025bib" style="Display:none">
+        @article{Lanzetti2025, <br>
+              title = {First-order Conditions for Optimization in the Wasserstein Space}, <br>
+              author = {Lanzetti, Nicolas and Bolognani, Saverio and D{\"o}rfler, Florian}, <br>
+              journal = {SIAM Journal on Mathematics of Data Science}, <br>
+              volume = {7}, <br>
+              number = {1}, <br>
+              pages = {274-300}, <br>
+              year = {2025}, <br>
+              doi = {10.1137/23M156687X}}
+        </div>
+        </li>
+
+		<li style="margin:10px 0px">
+            <em><a href="https://epubs.siam.org/doi/10.1137/23M1560902" target="_blank">Dynamic Programming in Probability Spaces via Optimal Transport</a></em><br>
+        A. Terpin*, <b>N. Lanzetti</b>*, and F. D&oumlrfler.<br>
+        SIAM Journal on Control and Optimization, 2024.<br>
+        <button class="button" onclick="myFunction('terpin2023')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2302.13550.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('terpin2023bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <button class="button" onclick="redirect_blank('https://youtu.be/FXvsDCt4pjQ')"><i class="fa fa-video-camera"></i> Video</button>
+        <div class="boxabstract" id="terpin2023" style="Display:none">
+            We study discrete-time finite-horizon optimal control problems in probability spaces,whereby  the  state  of  the  system  is  a  probability  measure.   We  show  that,  in  many  instances,  the solution of dynamic programming in probability spaces results from two ingredients:  (i) the solution of dynamic programming in the ``ground space"" (i.e., the space on which the probability measureslive) and (ii) the solution of an optimal transport problem.  From a multi-agent control perspective, a separation principle holds:  "low-level control of the agents of the fleet" (how does one reach thedestination?)  and "fleet-level control" (who goes where?)  are decoupled.
+        </div>
+        <div class="boxcitation" id="terpin2023bib" style="Display:none">
+        @article{terpinLanzetti2024, <br>
+              title = {Dynamic Programming in Probability Spaces via Optimal Transport}, <br>
+              author = {Terpin, Antonio and Lanzetti, Nicolas and D{\"o}rfler, Florian}, <br>
+              journal = {SIAM Journal on Control and Optimization}, <br>
+              volume = {62}, <br>
+              number = {2}, <br>
+              pages = {1183-1206}, <br>
+              year = {2024}, <br>
+              doi = {10.1137/23M1560902}}
+        </div>
+        </li>
+		
+		
+		<li style="margin:10px 0px">
+            <em><a href="https://ieeexplore.ieee.org/document/10337616" target="_blank">On the Interplay between Self-driving Cars and Public Transportation</a></em><br>
+        <b>N. Lanzetti</b>, M. Schiffer, M. Ostrovsky, and M. Pavone.<br>
+        IEEE Transactions on Control of Network Systems, 2023.<br>
+        <button class="button" onclick="myFunction('lanzettiSchiffer2023')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2109.01627.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+		<button class="button" onclick="myFunction('lanzettiSchiffer2023bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <div class="boxabstract" id="lanzettiSchiffer2023" style="Display:none">
+            Cities worldwide struggle with overloaded transportation systems and their externalities, such as traffic congestion and emissions. The emerging autonomous transportation technology has a potential to alleviate these issues. Yet, the decisions of profit-maximizing operators running large autonomous fleets could have a negative impact on other stakeholders, e.g., by disproportionately cannibalizing public transport, and therefore could make the transportation system even less efficient and sustainable. A careful analysis of these tradeoffs requires modeling the main modes of transportation, including public transport, within a unified framework. In this paper, we propose such a framework, which allows us to study the interplay among mobility service providers, public transport authorities, and customers. Our framework combines a graph-theoretic network model for the transportation system with a game-theoretic market model in which mobility service providers are profit-maximizers, while customers select individually-optimal transportation options. We apply our framework to data for the city of Berlin, Germany, and present sensitivity analyses to study parameters that mobility service providers or municipalities can influence to steer the system. We show that depending on market conditions and policy restrictions, autonomous ride-hailing systems may complement or cannibalize a public transportation system, serving between 7% and 80% of all customers. We discuss the main factors behind differences in these outcomes as well as strategic design options available to policymakers. Among others, we show that the monopolistic and the competitive cases yield similar modal shares, but differ in the profit outcome of each mobility service provider.
+        </div>
+		<div class="boxcitation" id="lanzettiSchiffer2023bib" style="Display:none">
+		@article{lanzettiSchiffer2023, <br>
+			author={Lanzetti, Nicolas and Schiffer, Maximilian and Ostrovsky, Michael and Pavone, Marco}, <br>
+			journal={IEEE Transactions on Control of Network Systems}, <br>
+			title={On the Interplay Between Self-Driving Cars and Public Transportation}, <br>
+			year={2023}, <br>
+			volume={}, <br>
+			number={}, <br>
+			pages={1-12}, <br>
+			doi={10.1109/TCNS.2023.3338248}}
+		</div>
+        </li>
+        
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2008.08975" target="_blank">Co-Design to Enable User-Friendly Tools to Assess the Impact of Future Mobility Solutions</a></em><br>
+        G. Zardini, <b>N. Lanzetti</b>, A. Censi, E. Frazzoli, and M. Pavone.<br>
+        IEEE Transactions on Network Science and Engineering, 2022.<br>
+        <button class="button" onclick="myFunction('zardiniLanzettiTNS2022')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2008.08975.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('zardiniLanzettiTNS2022bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <button class="button" onclick="redirect_blank('https://www.youtube.com/watch?v=Yl50qilcMJE')"><i class="fa fa-video-camera"></i> Video</button>
+        <button class="button" onclick="redirect_blank('http://gioele.science/media/T_ITS_Zardini.pdf')"><i class="fa fa-picture-o"></i> Slides</button>
+        <div class="boxabstract" id="zardiniLanzettiTNS2022" style="Display:none">
+        The design of future mobility solutions (autonomous vehicles, micromobility solutions, etc.) and the design of the mobility systems they enable are closely coupled. Indeed, knowledge about the intended service of novel mobility solutions would impact their design and deployment process, whilst insights about their technological development could significantly affect transportation management policies. This requires tools to study such a coupling and co-design future mobility systems in terms of different objectives. This paper presents a framework to address such co-design problems. In particular, we leverage the recently developed mathematical theory of co-design to frame and solve the problem of designing and deploying an intermodal mobility system, whereby autonomous vehicles service travel demands jointly with micromobility solutions such as shared bikes and e-scooters, and public transit, in terms of fleets sizing, vehicle characteristics, and public transit service frequency. Our framework is modular and compositional, allowing one to describe the design problem as the interconnection of its individual components and to tackle it from a system-level perspective. Moreover, it only requires very general monotonicity assumptions and it naturally handles multiple objectives, delivering the rational solutions on the Pareto front and thus enabling policy makers to select a policy. To showcase our methodology, we present a real-world case study for Washington D.C., USA. Our work suggests that it is possible to create user-friendly optimization tools to systematically assess the costs and benefits of interventions, and that such analytical techniques might inform policy-making in the future.
+        </div>
+        <div class="boxcitation" id="zardiniLanzettiTNS2022bib" style="Display:none">
+        @article{ZardiniLanzetti2022, <br>
+            title={Co-Design to Enable User-Friendly Tools to Assess the Impact of Future Mobility Solutions}, <br>
+            author={Zardini, Gioele and Lanzetti, Nicolas and Censi, Andrea and Frazzoli, Emilio and Pavone, Marco}, <br>
+            journal={IEEE Transactions on Network Science and Engineering}, <br>
+            year={2022}}
+        </div>
+        </li>
+        
+        <li style="margin:10px 0px">
+        <em><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-control-042920-012811" target="_blank">Analysis and Control of Autonomous Mobility-on-Demand Systems</a></em><br>
+        G. Zardini*, <b>N. Lanzetti*</b>, M. Pavone, and E. Frazzoli.<br>
+        Annual Review of Control, Robotics, and Autonomous Systems, 2022.<br>
+        <button class="button" onclick="myFunction('zardiniLanzetti2021review')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://www.annualreviews.org/doi/pdf/10.1146/annurev-control-042920-012811')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('zardiniLanzetti2021reviewbib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <div class="boxabstract" id="zardiniLanzetti2021review" style="Display:none">
+        Challenged by urbanization and increasing travel needs, existing transportation systems call for new mobility paradigms. In this article, we present the emerging concept of Autonomous Mobility-on-Demand, whereby centrally orchestrated fleets of autonomous vehicles provide mobility service to customers. We provide a comprehensive review of methods and tools to model and solve problems related to Autonomous Mobility-on-Demand systems. Specifically, we first identify problem settings for their analysis and control, both from the operational and the planning perspective. We then review modeling aspects, including transportation networks, transportation demand, congestion, operational constraints, and interactions with existing infrastructure. Thereafter, we provide a systematic analysis of existing solution methods and performance metrics, highlighting trends and trade-offs. Finally, we present various directions for further research.
+        </div>
+        <div class="boxcitation" id="zardiniLanzetti2021reviewbib" style="Display:none">
+        @article{ZardiniLanzetti2021, <br>
+            author = {Zardini, Gioele and Lanzetti, Nicolas and Pavone, Marco and Frazzoli, Emilio}, <br>
+            title = {Analysis and Control of Autonomous Mobility-on-Demand Systems}, <br>
+            journal = {Annual Review of Control, Robotics, and Autonomous Systems}, <br>
+            volume = {5}, <br>
+            number = {1}, <br>
+            pages = {633-658}, <br>
+            year = {2022}}
+        </div>
+        </li>
+            
+        <li style="margin:10px 0px">
+        <em><a href="https://www.sciencedirect.com/science/article/pii/S0306261920307601" target="_blank">Optimal Low-level Control Strategies for a High-performance Hybrid Electric Power Unit</a></em><br>
+        C. Balerna, <b>N. Lanzetti</b>, M. Salazar, A. Cerofolini, and C. Onder.<br>
+        Applied Energy, 2020.<br>
+        <button class="button" onclick="myFunction('balernaLanzetti2020')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://reader.elsevier.com/reader/sd/pii/S0306261920307601?token=10C1ADFBA7CD3547C313BF5CFCAFADA6E0A728392A6235F4100216071F809A66B64AB9DBD847EA720ED3EAB91EB6B7B5')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('balernaLanzetti2020bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <div class="boxabstract" id="balernaLanzetti2020" style="Display:none">
+        In this paper we present models and optimization algorithms to compute the optimal low-level control strategies for hybrid electric powertrains. Specifically, we study the minimum-fuel operation of a turbocharged internal combustion engine coupled to an electrical energy recovery system, consisting of a battery and two motors con- nected to the turbocharger and to the wheels, respectively. First, we combine physics-based modeling approaches with neural networks to identify a piecewise affine model of the power unit accounting for the internal dynamics of the engine, and formulate the minimum-fuel control problem for a given driving cycle. Second, we parse the control problem to a mixed-integer linear program that can be solved with off-the-shelf optimization algorithms that guarantee global optimality of the solution. Finally, we validate our model against a high fidelity nonlinear simulator and showcase the presented framework with a case-study for racing applications. Our results show that cylinder deactivation and turbocharger electrification can decrease fuel consumption up to 4% and 8%, respectively.
+        </div>
+        <div class="boxcitation" id="balernaLanzetti2020bib" style="Display:none">
+        @article{BalernaLanzetti2020, <br>
+            author={Camillo Balerna and Nicolas Lanzetti and Mauro Salazar and Alberto Cerofolini and Christopher Onder}, <br>
+            title={Optimal low-level control strategies for a high-performance hybrid electric power unit}, <br>
+            journal={Applied Energy}, <br>
+            volume={276}, <br>
+            pages={115248}, <br>
+            year={2020}, <br>
+            issn={0306-2619}, <br>
+            doi={10.1016/j.apenergy.2020.115248}, <br>
+            url={https://www.sciencedirect.com/science/article/pii/S0306261920307601}}
+        </div>
+        </li>
+        
+        <li style="margin:10px 0px">
+        <em><a href="https://ieeexplore.ieee.org/abstract/document/8894439" target="_blank">Intermodal Autonomous Mobility-on-Demand</a></em><br>
+        M. Salazar, <b>N. Lanzetti</b>, F. Rossi, M. Schiffer, and M. Pavone.<br>
+        IEEE Transactions on Intelligent Transportation Systems, 2019.<br>
+        <button class="button" onclick="myFunction('salazarLanzetti2019')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8894439')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('salazarLanzetti2019bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <div class="boxabstract" id="salazarLanzetti2019" style="Display:none">
+        In this paper we study models and coordination policies for intermodal Autonomous Mobility-on-Demand (AMoD), wherein a fleet of self-driving vehicles provides on-demand mobility jointly with public transit. Specifically, we first present a network flow model for intermodal AMoD, where we capture the coupling between AMoD and public transit and the goal is to maximize social welfare. Second, leveraging such a model, we design a pricing and tolling scheme that allows the system to recover a social optimum under the assumption of a perfect market with selfish agents. Third, we present real-world case studies for the transportation networks of New York City and Berlin, which allow us to quantify the general benefits of intermodal AMoD, as well as the societal impact of different vehicles. In particular, we show that vehicle size and powertrain type heavily affect intermodal routing decisions and, thus, system efficiency. Our studies reveal that the cooperation between AMoD fleets and public transit can yield significant benefits compared to an AMoD system operating in isolation, whilst our proposed tolling policies appear to be in line with recent discussions for the case of New York City.
+        </div>
+        <div class="boxcitation" id="salazarLanzetti2019bib" style="Display:none">
+        @article{SalazarLanzetti2020, <br>
+              author={Salazar, Mauro and Lanzetti, Nicolas and Rossi, Federico and Schiffer, Maximilian and Pavone, Marco}, <br>
+              journal={IEEE Transactions on Intelligent Transportation Systems}, <br>
+              title={Intermodal Autonomous Mobility-on-Demand}, <br>
+              year={2020}, <br>
+              volume={21}, <br>
+              number={9}, <br>
+              pages={3946-3960}, <br>
+              doi={10.1109/TITS.2019.2950720}}
+        </div>
+        </li>
+        </ul></p>
+
+
+
+        <h2>CS conference papers</h2> 
+
+        <p><ul style="list-style-type:none; padding:0">
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2406.12616" target="_blank">Learning Diffusion at Lightspeed</a></em><br>
+            A. Terpin, <b>N. Lanzetti</b>, M. Gadea, and F. D&oumlrfler.<br>
+            38th Conference on Neural Information Processing Systems (NeurIPS), 2024.<br>
+            <b>Oral presentation</b>. <br>
+            <button class="button" onclick="myFunction('terpinLanzetti2024')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2406.12616.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('terpinLanzetti2024bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <button class="button" onclick="redirect_blank('https://github.com/antonioterpin/jkonet-star')"><i class="fa fa-code"></i> Code</button>
+            <div class="boxabstract" id="terpinLanzetti2024" style="Display:none">
+                Diffusion regulates numerous natural processes and the dynamics of many successful generative models. Existing models to learn the diffusion terms from observational data rely on complex bilevel optimization problems and model only the drift of the system. We propose a new simple model, JKOnet*, which bypasses the complexity of existing architectures while presenting significantly enhanced representational capabilities: JKOnet* recovers the potential, interaction, and internal energy components of the underlying diffusion process. JKOnet* minimizes a simple quadratic loss and outperforms other baselines in terms of sample efficiency, computational complexity, and accuracy. Additionally, JKOnet* provides a closed-form optimal solution for linearly parametrized functionals, and, when applied to predict the evolution of cellular processes from real-world data, it achieves state-of-the-art accuracy at a fraction of the computational cost of all existing methods. Our methodology is based on the interpretation of diffusion processes as energy-minimizing trajectories in the probability space via the so-called JKO scheme, which we study via its first-order optimality conditions.
+            </div>
+            <div class="boxcitation" id="terpinLanzetti2024bib" style="Display:none">
+                @article{TerpinLanzetti2024, <br>
+                    title={Learning diffusion at lightspeed}, <br>
+                    author={Terpin, Antonio and Lanzetti, Nicolas and Gadea, Mart{\'\i}n and Dorfler, Florian}, <br>
+                    journal={Advances in Neural Information Processing Systems}, <br>
+                    volume={37}, <br>
+                    pages={6797--6832}, <br>
+                    year={2024}}
+            </div>
+        </li>
+
+
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2406.17736" target="_blank">Fairness in Social Influence Maximization via Optimal Transport</a></em><br>
+            S. Chowdary, G. De Pasquale*, <b>N. Lanzetti*</b>, A. Stoica, and F. D&oumlrfler.<br>
+            38th Conference on Neural Information Processing Systems (NeurIPS), 2024.<br>
+            <button class="button" onclick="myFunction('chowdary2024')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2406.17736.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('chowdary2024bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <button class="button" onclick="redirect_blank('https://github.com/nicolaslanzetti/fairness-sim-ot')"><i class="fa fa-code"></i> Code</button>
+            <div class="boxabstract" id="chowdary2024" style="Display:none">
+                We study fairness in social influence maximization, whereby one seeks to select seeds that spread a given information throughout a network, ensuring balanced outreach among different communities (e.g. demographic groups). In the literature, fairness is often quantified in terms of the expected outreach within individual communities. In this paper, we demonstrate that such fairness metrics can be misleading since they ignore the stochastic nature of information diffusion processes. When information diffusion occurs in a probabilistic manner, multiple outreach scenarios can occur. As such, outcomes such as "in 50% of the cases, no one of group 1 receives the information and everyone in group 2 receives it and in other 50%, the opposite happens", which always results in largely unfair outcomes, are classified as fair by a variety of fairness metrics in the literature. We tackle this problem by designing a new fairness metric, mutual fairness, that captures variability in outreach through optimal transport theory. We propose a new seed selection algorithm that optimizes both outreach and mutual fairness, and we show its efficacy on several real datasets. We find that our algorithm increases fairness with only a minor decrease (and at times, even an increase) in efficiency.
+            </div>
+            <div class="boxcitation" id="chowdary2024bib" style="Display:none">
+            @article{Chowdary2024, <br>
+                    title = {Fairness in Social Influence Maximization via Optimal Transport}, <br>
+                    author = {Chowdhary, Shubham and De Pasquale, Giulia and Lanzetti, Nicolas and Stoica, Ana-Andreea and D{\"o}rfler, Florian}, <br>
+                    booktitle={NeurIPS}, <br>
+                    organization={PMLR}, <br>
+                    year = {2024}}
+            </div>
+        </li>
+
+        
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2210.11137" target="_blank">Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions</a></em><br>
+            A. Terpin*, <b>N. Lanzetti*</b>, B. Yardim, F. D&oumlrfler, and G. Ramponi.<br>
+            36th Conference on Neural Information Processing Systems (NeurIPS), 2022.<br>
+            <button class="button" onclick="myFunction('terpinLanzettiYardim2022')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2210.11137.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('terpinLanzettiYardim2022bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <button class="button" onclick="redirect_blank('files/conferences/NeurIPS2022/lightboard.mp4')"><i class="fa fa-video-camera"></i> Video</button>
+            <button class="button" onclick="redirect_blank('https://gitlab.ethz.ch/lnicolas/ot-trpo')"><i class="fa fa-code"></i> Code</button>
+            <div class="boxabstract" id="terpinLanzettiYardim2022" style="Display:none">
+                Policy Optimization (PO) algorithms have been proven particularly suited to handle the high-dimensionality of real-world continuous control tasks. In this context, Trust Region Policy Optimization methods represent a popular approach to stabilize the policy updates. These usually rely on the Kullback-Leibler (KL) divergence to limit the change in the policy. The Wasserstein distance represents a natural alternative, in place of the KL divergence, to define trust regions or to regularize the objective function. However, state-of-the-art works either resort to its approximations or do not provide an algorithm for continuous state-action spaces, reducing the applicability of the method. In this paper, we explore optimal transport discrepancies (which include the Wasserstein distance) to define trust regions, and we propose a novel algorithm - Optimal Transport Trust Region Policy Optimization (OT-TRPO) - for continuous state-action spaces. We circumvent the infinite-dimensional optimization problem for PO by providing a one-dimensional dual reformulation for which strong duality holds. We then analytically derive the optimal policy update given the solution of the dual problem. This way, we bypass the computation of optimal transport costs and of optimal transport maps, which we implicitly characterize by solving the dual formulation. Finally, we provide an experimental evaluation of our approach across various control tasks. Our results show that optimal transport discrepancies can offer an advantage over state-of-the-art approaches.
+            </div>
+            <div class="boxcitation" id="terpinLanzettiYardim2022bib" style="Display:none">
+            @inproceedings{terpinLanzetti2022, <br>
+                    title = {Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions}, <br>
+                    author = {Terpin, Antonio and Lanzetti, Nicolas and Yardim, Batuhan and D{\"o}rfler, Florian and Ramponi, Giorgia}, <br>
+                    booktitle={NeurIPS}, <br>
+                    organization={PMLR}, <br>
+                    year = {2022}}
+            </div>
+        </li>
+        </ul></p>
+        
+
+        
+        <h2>peer-reviewed conference papers</h2>
+        <p><ul style="list-style-type:none; padding:0">
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2410.22826" target="_blank">Optimality of Linear Policies for Distributionally Robust Linear Quadratic Gaussian Regulator with Stationary Distributions</a></em><br>
+        <b>N. Lanzetti</b>*, A. Terpin*, and F. D&oumlrfler.<br>
+        European Control Conference (ECC), 2025.<br>
+        <button class="button" onclick="myFunction('lanzettiTerpin2024Optimality')"><i class="fa fa-align-left"></i> Abstract</button>
+        <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2410.22826.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+        <button class="button" onclick="myFunction('lanzettiTerpin2024Optimalitybib')"><i class="fa fa-quote-right"></i> BibTex</button>
+        <div class="boxabstract" id="lanzettiTerpin2024Optimality" style="Display:none">
+            We prove that output-feedback linear policies remain optimal for solving the Linear Quadratic Gaussian regulation problem in the face of worst-case process and measurement noise distributions when these are independent, stationary, and known to be within a radius (in the Wasserstein sense) to some reference zero-mean Gaussian noise distributions. Additionally, we establish the existence of a Nash equilibrium of the zero-sum game between a control engineer, who minimizes control cost, and a fictitious adversary, who chooses the noise distributions that maximize this cost. For general (possibly non-Gaussian) reference noise distributions, we establish a quasi closed-form solution for the worst-case distributions against linear policies. Our work provides a less conservative alternative compared to recent work in distributionally robust control.
+        </div>
+        <div class="boxcitation" id="lanzettiTerpin2024Optimalitybib" style="Display:none">
+        @article{LanzettiTerpin2024Optimality, <br>
+                title = {Optimality of Linear Policies for Distributionally Robust Linear Quadratic Gaussian Regulator with Stationary Distributions}, <br>
+                author = {Lanzetti, Nicolas and Terpin, Antonio and D{\"o}rfler, Florian}, <br>
+                journal = {arXiv preprint arXiv:2410.22826}, <br>
+                year = {2025}}
+        </div>
+        </li>
+        
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2309.08967" target="_blank">The Impact of Recommendation Systems on Opinion Dynamics: Microscopic versus Macroscopic Effects</a></em><br>
+            <b>N. Lanzetti</b>,  F. D&oumlrfler, and Nicolò Pagan.<br>
+            IEEE Conference on Decision and Control (CDC), 2023, Singapore (SP). <br>
+            <button class="button" onclick="myFunction('LanzettiDoerflerPagan2023')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2309.08967.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+			<button class="button" onclick="redirect_blank('https://montrealethics.ai/the-impact-of-recommendation-systems-on-opinion-dynamics-microscopic-versus-macroscopic-effects/')"><i class="fa fa-rss-square"></i> Blog</button>
+            <button class="button" onclick="myFunction('LanzettiDoerflerPagan2023bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <div class="boxabstract" id="LanzettiDoerflerPagan2023" style="Display:none">
+               Recommendation systems are widely used in web services, such as social networks and e-commerce platforms, to serve personalized content to the users and, thus, enhance their experience. While personalization assists users in navigating through the available options, there have been growing concerns regarding its repercussions on the users and their opinions. Examples of negative impacts include the emergence of filter bubbles and the amplification of users' confirmation bias, which can cause opinion polarization and radicalization. In this paper, we study the impact of recommendation systems on users, both from a microscopic (i.e., at the level of individual users) and a macroscopic (i.e., at the level of a homogenous population) perspective. Specifically, we build on recent work on the interactions between opinion dynamics and recommendation systems to propose a model for this closed loop, which we then study both analytically and numerically. Among others, our analysis reveals that shifts in the opinions of individual users do not always align with shifts in the opinion distribution of the population. In particular, even in settings where the opinion distribution appears unaltered (e.g., measured via surveys across the population), the opinion of individual users might be significantly distorted by the recommendation system.
+            </div>
+            <div class="boxcitation" id="LanzettiDoerflerPagan2023bib" style="Display:none">
+            @inproceedings{LanzettiDoerflerPagan2023, <br>
+                    title={The impact of recommendation systems on opinion dynamics: Microscopic versus macroscopic effects}, <br>
+                    author={Lanzetti, Nicolas and D{\"o}rfler, Florian and Pagan, Nicol{\`o}}, <br>
+                    booktitle={2023 62nd IEEE conference on decision and control (CDC)}, <br>
+                    pages={4824--4829}, <br>
+                    year={2023}, <br>
+                    organization={IEEE}}
+            </div>
+        </li>
+
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2304.02235" target="_blank">Capture, Propagate, and Control Distributional Uncertainty</a></em><br>
+            L. Aolaritei, <b>N. Lanzetti</b>, and F. D&oumlrfler.<br>
+            IEEE Conference on Decision and Control (CDC), 2023, Singapore (SP). <br>
+            <button class="button" onclick="myFunction('aolariteiLanzetti2023')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2304.02235.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('aolariteiLanzetti2023bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <div class="boxabstract" id="aolariteiLanzetti2023" style="Display:none">
+                We study stochastic dynamical systems in settings where only partial statistical information about the noise is available, e.g., in the form of a limited number of noise realizations. Such systems are particularly challenging to analyze and control, primarily due to an absence of a distributional uncertainty model which: (1) is expressive enough to capture practically relevant scenarios; (2) can be easily propagated through system maps; (3) is invariant under propagation; and (4) allows for computationally tractable control actions. In this paper, we propose to model distributional uncertainty via Optimal Transport ambiguity sets and show that such modeling choice satisfies all of the above requirements. We then specialize our results to stochastic LTI systems, and start by showing that the distributional uncertainty can be efficiently captured, with high probability, within an Optimal Transport ambiguity set on the space of noise trajectories. Then, we show that such ambiguity sets propagate exactly through the system dynamics, giving rise to stochastic tubes that contain, with high probability, all trajectories of the stochastic system. Finally, we show that the control task is very interpretable, unveiling an interesting decomposition between the roles of the feedforward and the feedback control terms. Our results are actionable and successfully applied in stochastic reachability analysis and in trajectory planning under distributional uncertainty.
+            </div>
+            <div class="boxcitation" id="aolariteiLanzetti2023bib" style="Display:none">
+            @inproceedings{AolariteiLanzetti2023, <br>
+                    title={Capture, propagate, and control distributional uncertainty},  <br>
+                    author={Aolaritei, Liviu and Lanzetti, Nicolas and D{\"o}rfler, Florian}, <br>
+                    booktitle={2023 62nd IEEE Conference on Decision and Control (CDC)}, <br>
+                    pages={3081--3086}, <br>
+                    year={2023}, <br>
+                    organization={IEEE}}
+            </div>
+        </li>
+
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2308.04820" target="_blank">Strategic Interactions in Multi-modal Mobility Systems: A Game-Theoretic Perspective</a></em><br>
+            G. Zardini*, <b>N. Lanzetti*</b>, G. Belgioioso, C. Hartnik, S. Bolognani, F. D&oumlrfler, and E. Frazzoli.<br>
+            IEEE Intelligent Transportation Systems Conference (ITSC), 2023, Bilbao (Spain). <br>
+            <button class="button" onclick="myFunction('zardiniLanzetti2023')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2104.10394.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('zardiniLanzetti2023bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <div class="boxabstract" id="zardiniLanzetti2023" style="Display:none">
+                The evolution of existing transportation systems,mainly driven by urbanization and increased availability of mobility options, such as private, profit-maximizing ride-hailing companies, calls for tools to reason about their design and regulation. To study this complex socio-technical problem, one needs to account for the strategic interactions of the heterogeneous stakeholders involved in the mobility ecosystem and analyze how they influence the system. In this paper, we focus on the interactions between citizens who compete for the limited resources of a mobility system to complete their desired trip. Specifically, we present a game-theoretic framework for multi-modal mobility systems, where citizens, characterized by heterogeneous preferences, have access to various mobility options and seek individually-optimal decisions. We study the arising game and prove the existence of an equilibrium, which can be efficiently computed via a convex optimization problem. Through both an analytical and a numerical case study for the classic scenario of Sioux Falls, USA, we illustrate the capabilities of our model and perform sensitivity analyses. Importantly, we show how to embed our framework into a "larger" game among stakeholders of the mobility ecosystem (e.g., municipality, Mobility Service Providers, and citizens), effectively giving rise to tools to inform strategic interventions and policy-making in the mobility ecosystem.
+            </div>
+            <div class="boxcitation" id="zardiniLanzetti2023bib" style="Display:none">
+                @inproceedings{ZardiniLanzetti2023, <br>
+                    title={Strategic interactions in multi-modal mobility systems: A game-theoretic perspective}, <br>
+                    author={Zardini, Gioele and Lanzetti, Nicolas and Belgioioso, Giuseppe and Hartnik, Christian and Bolognani, Saverio and D{\"o}rfler, Florian and Frazzoli, Emilio}, <br>
+                    booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)}, <br>
+                    pages={5452--5459}, <br>
+                    year={2023}, <br>
+                    organization={IEEE}}
+            </div>
+        </li>
+            
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2301.12461" target="_blank">Stochastic Wasserstein Gradient Flows using Streaming Data with an Application in Predictive Maintenance</a></em><br>
+            <b>N. Lanzetti</b>, E. Balta, D. Liao-McPherson, and F. D&oumlrfler.<br>
+            IFAC World Congress, 2022, Yokohama (JP). <br>
+            <button class="button" onclick="myFunction('lanzettiBalta2023')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2301.12461.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('lanzettiBalta2023bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <div class="boxabstract" id="lanzettiBalta2023" style="Display:none">
+            We study estimation problems in safety-critical applications with streaming data. Since estimation problems can be posed as optimization problems in the probability space, we devise a stochastic projected Wasserstein gradient flow that keeps track of the belief of the estimated quantity and can consume samples from online data. We show the convergence properties of our algorithm. Our analysis combines recent advances in the Wasserstein space and its differential structure with more classical stochastic gradient descent. We apply our methodology for predictive maintenance of safety-critical processes: Our approach is shown to lead to superior performance when compared to classical least squares, enabling, among others, improved robustness for decision-making.
+            </div>
+            <div class="boxcitation" id="lanzettiBalta2023bib" style="Display:none">
+                @article{lanzetti2023stochastic, <br>
+                    title={Stochastic Wasserstein gradient flows using streaming data with an application in predictive maintenance}, <br>
+                    author={Lanzetti, Nicolas and Balta, Efe C and Liao-McPherson, Dominic and D{\"o}rfler, Florian}, <br>
+                    journal={IFAC-PapersOnLine}, <br>
+                    volume={56}, <br>
+                    number={2}, <br>
+                    pages={3954--3959}, <br>
+                    year={2023}, <br>
+                    publisher={Elsevier}}
+            </div>
+        </li>
+        
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2209.05382" target="_blank">Modeling of Political Systems using Wasserstein Gradient Flows</a></em><br>
+            <b>N. Lanzetti*</b>, J. Hajar*, and F. D&oumlrfler.<br>
+            IEEE Conference on Decision and Control (CDC), 2022, Canc&uacuten (MX). <br>
+            <button class="button" onclick="myFunction('lanzettiHajar2022')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/abs/2209.05382.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('lanzettiHajar2022bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <div class="boxabstract" id="lanzettiHajar2022" style="Display:none">
+            The study of complex political phenomena such as parties' polarization calls for mathematical models of political systems. In this paper, we aim at modeling the time evolution of a political system whereby various parties selfishly interact to maximize their political success (e.g., number of votes). More specifically, we identify the ideology of a party as a probability distribution over a one-dimensional real-valued ideology space, and we formulate a gradient flow in the probability space (also called a Wasserstein gradient flow) to study its temporal evolution. We characterize the equilibria of the arising dynamic system, and establish local convergence under mild assumptions. We calibrate and validate our model with real-world time-series data of the time evolution of the ideologies of the Republican and Democratic parties in the US Congress. Our framework allows to rigorously reason about various political effects such as parties' polarization and homogeneity. Among others, our mechanistic model can explain why political parties become more polarized and less inclusive with time (their distributions get "tighter"), until all candidates in a party converge asymptotically to the same ideological position.
+            </div>
+            <div class="boxcitation" id="lanzettiHajar2022bib" style="Display:none">
+                @inproceedings{LanzettiHajar2022, <br>
+                    title={Modeling of Political Systems using Wasserstein Gradient Flows}, <br>
+                    author={Lanzetti, Nicolas and Hajar, Joudi and D{\"o}rfler, Florian}, <br>
+                    booktitle={IEEE 61st Conference on Decision and Control (CDC)}, <br>
+                    pages={364--369}, <br>
+                    year={2022}, <br>
+                    organization={IEEE}}
+            </div>
+        </li>
+            
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2104.10394" target="_blank">Game Theory to Study Interactions between Mobility Stakeholders</a></em><br>
+            G. Zardini*, <b>N. Lanzetti*</b>, L. Guerrini, E. Frazzoli, and F. D&oumlrfler.<br>
+            IEEE Intelligent Transportation Systems Conference (ITSC), 2021, Indianapolis (USA). <br>
+            <b>Best Paper Award (1st Place)</b>. <br>
+            <button class="button" onclick="myFunction('zardiniLanzetti2021')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/2104.10394.pdf')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('zardiniLanzetti2021bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <div class="boxabstract" id="zardiniLanzetti2021" style="Display:none">
+            Increasing urbanization and exacerbation of sustainability goals threaten the operational efficiency of current transportation systems and confront cities with complex choices with huge impact on future generations. At the same time, the rise of private, profit-maximizing Mobility Service Providers leveraging public resources, such as ride-hailing companies, entangles current regulation schemes. This calls for tools to study such complex socio-technical problems. In this paper, we provide a game-theoretic framework to study interactions between stakeholders of the mobility ecosystem, modeling regulatory aspects such as taxes and public transport prices, as well as operational matters for Mobility Service Providers such as pricing strategy, fleet sizing, and vehicle design. Our framework is modular and can readily accommodate different types of Mobility Service Providers, actions of municipalities, and low-level models of customers’ choices in the mobility system. Through both an analytical and a numerical case study for the city of Berlin, Germany, we showcase the ability of our framework to compute equilibria of the problem, to study fundamental tradeoffs, and to inform stakeholders and policy makers on the effects of interventions. Among others, we show tradeoffs between customers’ satisfaction, environmental impact, and public revenue, as well as the impact of strategic decisions on these metrics.
+            </div>
+            <div class="boxcitation" id="zardiniLanzetti2021bib" style="Display:none">
+            @inproceedings{ZardiniLanzetti2021, <br>
+                title={Game Theory to Study Interactions between Mobility Stakeholders}, <br>
+                author={Zardini, Gioele and Lanzetti, Nicolas and Guerrini, Laura and Frazzoli, Emilio and Dörfler, Florian}, <br>
+                booktitle={IEEE International Intelligent Transportation Systems Conference (ITSC)}, <br>
+                pages={2054--2061}, <br>
+                year={2021}, <br>
+                organization={IEEE}}
+            </div>
+        </li>
+            
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/2003.04739" target="_blank">On the Co-Design of AV-Enabled Mobility Systems</a></em><br>
+            G. Zardini, <b>N. Lanzetti</b>, M. Salazar, A. Censi, E. Frazzoli, and M. Pavone. <br>
+            IEEE Intelligent Transportation Systems Conference (ITSC), 2020, Rhodes (Greece). <br>
+            <button class="button" onclick="myFunction('zardiniLanzetti2020')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('http://arxiv.org/pdf/2003.04739')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('zardiniLanzetti2020bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <button class="button" onclick="redirect_blank('https://www.youtube.com/watch?v=6tCJB7CHp74&feature=youtu.be')"><i class="fa fa-video-camera"></i> Video</button>
+            <button class="button" onclick="redirect_blank('http://gioele.science/media/ITSC20_Zardini.pdf')"><i class="fa fa-picture-o"></i> Slides</button>
+            <div class="boxabstract" id="zardiniLanzetti2020" style="Display:none">
+            The design of autonomous vehicles (AVs) and the design of AV-enabled mobility systems are closely coupled. Indeed, knowledge about the intended service of AVs would impact their design and deployment process, whilst insights about their technological development could significantly affect transportation management decisions. This calls for tools to study such a coupling and co-design AVs and AV-enabled mobility systems in terms of different objectives. In this paper, we instantiate a framework to address such co-design problems. In particular, we leverage the recently developed theory of co-design to frame and solve the problem of designing and deploying an intermodal Autonomous Mobility-on-Demand system, whereby AVs service travel demands jointly with public transit, in terms of fleet sizing, vehicle autonomy, and public transit service frequency. Our framework is modular and compositional, allowing one to describe the design problem as the interconnection of its individual components and to tackle it from a system-level perspective. To showcase our methodology, we present a real-world case study for Washington D.C., USA. Our work suggests that it is possible to create user-friendly optimization tools to systematically assess costs and benefits of interventions, and that such analytical techniques might gain a momentous role in policy-making in the future.
+            </div>
+            <div class="boxcitation" id="zardiniLanzetti2020bib" style="Display:none">
+            @inproceedings{ZardiniLanzetti2020ITSC, <br>
+                author={Zardini, Gioele and Lanzetti, Nicolas and Salazar, Mauro and Censi, Andrea and Frazzoli, Emilio and Pavone, Marco}, <br>
+                booktitle={2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)}, <br>
+                title={On the Co-Design of AV-Enabled Mobility Systems}, <br>
+                year={2020}, <br>
+                address={Rhodes, Greece}, <br>
+                doi={10.1109/ITSC45102.2020.9294499}}
+            </div>
+        </li>
+        
+   
+        <li style="margin:10px 0px">
+            <em><a href="https://arxiv.org/abs/1910.07714" target="_blank">Towards a Co-Design Framework for Future Mobility Systems</a></em><br>
+            G. Zardini, <b>N. Lanzetti</b>, M. Salazar, A. Censi, E. Frazzoli, and M. Pavone.<br>
+            Annual Meeting of the Transportation Research Board, 2020, Washington D.C. (USA).<br>
+            <button class="button" onclick="myFunction('zardiniLanzetti2020TRB')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://arxiv.org/pdf/1910.07714')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('zardiniLanzetti2020TRBbib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <button class="button" onclick="redirect_blank('https://gzardini.github.io/poster.pdf')"><i class="fa fa-file-picture-o"></i> Poster</button>
+            <div class="boxabstract" id="zardiniLanzetti2020TRB" style="Display:none">
+            The design of Autonomous Vehicles (AVs) and the design of AVs-enabled mobility systems are closely coupled. Indeed, knowledge about the intended service of AVs would impact their design and deployment process, whilst insights about their technological development could significantly affect transportation management decisions. This calls for tools to study such a coupling and co-design AVs and AVs-enabled mobility systems in terms of different objectives. In this paper, we instantiate a framework to address such co-design problems. In particular, we leverage the recently developed theory of co-design to frame and solve the problem of designing and deploying an intermodal Autonomous Mobility-on-Demand system, whereby AVs service travel demands jointly with public transit, in terms of fleet sizing, vehicle autonomy, and public transit service frequency. Our framework is modular and compositional, allowing to describe the design problem as the interconnection of its individual components and to tackle it from a system-level perspective. Moreover, it only requires very general monotonicity assumptions and it naturally handles multiple objectives, delivering the rational solutions on the Pareto front and thus enabling policy makers to select a solution through political criteria. To showcase our methodology, we present a real-world case study for Washington D.C., USA. Our work suggests that it is possible to create user-friendly optimization tools to systematically assess the costs and benefits of interventions, and that such analytical techniques might gain a momentous role in policy-making in the future.
+            </div>
+            <div class="boxcitation" id="zardiniLanzetti2020TRBbib" style="Display:none">
+            @inproceedings{ZardiniLanzetti2020TRB, <br>
+                author={Zardini, Gioele and Lanzetti, Nicolas and Salazar, Mauro and Censi, Andrea and Frazzoli, Emilio and Pavone, Marco}, <br>
+                title={Towards a Co-Design Framework for Future Mobility Systems}, <br>
+                booktitle={99th Annual Meeting of the Transportation Research Board}, <br>
+                year={2020}, <br>
+                address={Washington D.C., United States}}
+            </div>
+        </li>
+        
+        
+        <li style="margin:10px 0px">
+            <em><a href="https://ieeexplore.ieee.org/abstract/document/8795809" target="_blank">Recurrent Neural Network based MPC for Process Industries</a></em><br>
+            <b>N. Lanzetti</b>, Y. Lian, A. Cortinovis, L. Dominguez, M. Mercang&oumlz, and C. Jones.<br>
+            European Control Conference (ECC), 2019, Naples (Italy).<br>
+            <button class="button" onclick="myFunction('lanzettiLian2019')"><i class="fa fa-align-left"></i> Abstract</button>
+            <button class="button" onclick="redirect_blank('https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8795809')"><i class="fa fa-file-pdf-o"></i> Paper</button>
+            <button class="button" onclick="myFunction('lanzettiLian2019bib')"><i class="fa fa-quote-right"></i> BibTex</button>
+            <div class="boxabstract" id="lanzettiYing2019" style="Display:none">
+            Autonomous operation of industrial plants requires a cheap and efficient way of creating dynamic process models, which can then be used to either be part of the autonomous systems or to serve as simulators for reinforcement learning. The trends of digitalization, cheap storage, and industry 4.0 enable the access to more and more historical data that can be used in data driven methods to perform system identification. Model predictive control (MPC) is a promising advanced control framework, which might be part of autonomous plants or contribute to some extent to autonomy. In this article, we combine data-driven modeling with MPC and investigate how to train, validate, and incorporate a special recurrent neural network (RNN) architecture into an MPC framework. The proposed structure is designed for being scalable and applicable to a wide range of multiple-input multiple-output (MIMO) systems encountered in industrial applications. The training, validation, and closed-loop control using RNNs are demonstrated in an industrial simulation case study. The results show that the proposed framework performs well dealing with challenging practical conditions such as MIMO control, nonlinearities, noise, and time delays.
+            </div>
+            <div class="boxcitation" id="lanzettiLian2019bib" style="Display:none">
+            @inproceedings{LanzettiLian2019, <br>
+                author={Lanzetti, Nicolas and Lian, Ying Zhao and Cortinovis, Andrea and Dominguez, Luis and Mercangöz, Mehmet and Jones, Colin}, <br>
+                booktitle={2019 18th European Control Conference (ECC)}, <br>
+                title={Recurrent Neural Network based MPC for Process Industries}, <br>
+                year={2019}, <br>
+                address={Naples, Italy}, <br>
+                doi={10.23919/ECC.2019.8795809}}
+            </div>
+        </li>
+        
+        <li style="margin:10px 0px">
+            <em><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/320004" target="_blank">Adaptation Algorithms for the Hybrid Electric Powertrain of a Race Car</a></em><br>
+            C. Balerna, M. Salazar, <b>N. Lanzetti</b>, C. Bussi, and C. Onder.<br>
+            FISITA World Automotive Congress, 2018, Chennai (India).<br>
+            <button class="button" onclick="myFunction('balernaSalazar2018')"><i class="fa fa-align-left"></i> Abstract</button>
+            <div class="boxabstract" id="balernaSalazar2018" style="Display:none">
+            Since 2014, the Formula 1 race car has been equipped with a hybrid electric powertrain combining an electrically turbocharged internal combustion engine with an electric motor/generator unit in a parallel architecture. The energy management system that controls the power unit has a strong influence on the achievable trade-off between lap time and energy consumption. In our previous research, we developed a robust control algorithm that closely tracks the lap time optimal operating strategy and adequately reacts to disturbances during the race. Of course, the performance of this controller relies on the accuracy of the models used for optimization. During a Formula 1 race, the vehicle dynamics and the powertrain efficiency may change significantly due to several effects, such as decreasing weight due to the consumption of fuel, variable tire grip due to tire wear and tire changes, as well as reduced engine friction due to heating of lubricants. In order to minimize model mismatch, we present a recursive least squares algorithm to estimate the evolution of the corresponding model parameters and combine it with the previously developed feedback controller. We validate this methodology on a third party high-fidelity nonlinear simulator. The simulation results show that our proposed approach yields close-to-optimal performance in terms of lap time and energy consumption.
+            </div>
+        </li>
+        </ul></p>
+
+
+        <h3>other seminar contributions</h3>
+        <p><ul style="list-style-type:none; padding:0">
+
+        <li style="margin:10px 0px">
+            <em><a href="https://idsc.ethz.ch/research-frazzoli/workshops/compositional-robotics-2022.html" target="_blank">From Car to Fleet: The Compositionality of Optimal Control</a></em><br>
+            A. Terpin*, <b>N. Lanzetti*</b>, and F. D&oumlrfler.<br>
+            IEEE International Conference on Robotics and Automation, 2022, Philadelphia (USA).<br>
+        </li>
+
+        <li style="margin:10px 0px">
+            <em><a href="https://ifac.papercept.net/conferences/conferences/ECNS22/program/" target="_blank">Modeling of Political Systems in the Wasserstein Space</a></em><br>
+            J. Hajar*, <b>N. Lanzetti*</b>, and F. D&oumlrfler.<br>
+            IFAC Conference on Networked Systems (NecSys), 2022, Z&uumlrich (CH). <br>
+            <button class="button" onclick="myFunction('hajarLanzetti2022')"><i class="fa fa-align-left"></i> Abstract</button>
+            <a href="files/conferences/NecSys2022/poster.pdf" target="_blank"><i class="fa fa-file-picture-o"></i> Poster</a>
+            <div class="boxabstract" id="hajarLanzetti2022" style="Display:none">
+            The study of complex political phenomena such as parties’ polarization calls for mathematical models of political systems. In this work, we aim at modeling the time evolution of a political system whereby various parties selfishly interact to maximize their political success (e.g., number of votes). More specifically, we identify the ideology of a party as a probability distribution living in the Wasserstein space and formulate gradient flow equations to study its temporal evolution. We calibrate and validate our model with real-world time-series data of the time evolution of the ideologies of the Republican and Democratic parties in the US Congress. Our framework allows to rigorously reason about various political effects such as parties’ polarization and homogeneity. Among others, our mechanistic model can explain why political parties become more polarized and less inclusive with time (their distributions get “tighter”), until all candidates in a party converge asymptotically to the same ideological position.
+            </div>
+        </li>
+
+        <li style="margin:10px 0px">
+            <em><a href="https://www.informs.org/Publications/Proceedings-of-the-TSL-Second-Triennial-Conference" target="_blank">On the Interplay between Self-driving Cars and Public Transportation: A Game-theoretic Perspective</a></em><br>
+            <b>N. Lanzetti</b>, M. Schiffer, M. Ostrovksy, and M. Pavone.<br>
+            Transportation Science and Logistics Society Conference (TSL), 2020, Arlington (USA), cancelled.<br>
+            <button class="button" onclick="redirect_blank('https://www.informs.org/content/download/382204/4156442/file/79_Maximilian_Schiffer_TSL.pdf')"><i class="fa fa-align-left"></i> Abstract</button>
+        </li>
+
+        <li style="margin:10px 0px">
+            <em><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/375834" target="_blank">Do Self-driving Cars Swallow Public Transport? A Game-theoretical Perspective on Transportation Systems</a></em><br>
+            <b>N. Lanzetti</b>, G. Zardini, M. Schiffer, M. Ostrovsky, and M. Pavone.<br>
+            INFORMS Annual Meeting, 2019, Seattle (USA). <br>
+            <a href="files/conferences/informs2019/AMODPresentation.pdf" target="_blank"><i class="fa fa-picture-o"></i> Slides</a>
+            </li>
+        </ul></p>
+        
+
+        <h2>Dissertations</h2>
+        <p><ul style="list-style-type:none; padding:0">
+        <li style="margin:10px 0px">
+            <em><a href="https://www.research-collection.ethz.ch/handle/20.500.11850/419508" target="_blank">Do Self-driving Cars Swallow Public Transit? A Game-theoretical Perspective on Transportation Systems</a></em><br>
+            <b>N. Lanzetti</b><br>
+            Master's Thesis, 2019<br>
+            <em>Advisors:</em> M. Schiffer, M. Pavone, and E. Frazzoli.<br>
+        </li>
+        </ul></p>
+        
+
+
+        <h2>lecture Notes</h2>
+		<p>
+        Please see <a href="teaching.html"> Teaching.</a>
+	    </p>
+
+	</body>
+    <script>
+        // Legacy helper used by many inline buttons: toggle an abstract or bibtex box
+        function myFunction(id) {
+            try {
+                var el = document.getElementById(id);
+                if (!el) return;
+                var cur = (el.style && el.style.display) || window.getComputedStyle(el).display;
+                el.style.display = (cur === 'none' || cur === '') ? 'block' : 'none';
+            } catch (e) {
+                // fail silently
+            }
+        }
+
+        // Open a URL in a new tab (with noopener for security)
+        function redirect_blank(url) {
+            try {
+                window.open(url, '_blank', 'noopener');
+            } catch (e) {
+                // fallback: change location
+                window.location.href = url;
+            }
+        }
+    </script>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Nicolas Lanzetti</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+            
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+
+	<body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="publications.html">publications</a>
+                    </li>
+                    <li>
+                        <a href="teaching.html">teaching</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>preprints</h2>
+                <p>* indicates equal contribution/shared authorship</p>
+                <ul id="preprints-list" style="list-style-type:none; padding:0"></ul>
+            </section>
+
+            <section>
+                <h2>journal papers</h2>
+                <ul id="journal-list" style="list-style-type:none; padding:0"></ul>
+            </section>
+
+            <section>
+                <h2>computer science conferences</h2>
+                <ul id="cs-conferences-list" style="list-style-type:none; padding:0"></ul>
+            </section>
+
+            <section>
+                <h2>peer-reviewed conferences</h2>
+                <ul id="conferences-list" style="list-style-type:none; padding:0"></ul>
+            </section>
+
+            <section>
+                <h2>dissertations</h2>
+                <ul id="dissertations-list" style="list-style-type:none; padding:0"></ul>
+            </section>
+
+            <section>
+                <h2>lecture notes</h2>
+                <p>Please see <a href="teaching.html">teaching</a> for lecture notes and materials.</p>
+            </section>
+
+        <!-- If JavaScript is disabled, view the canonical data at data/publications.json -->
+    </main>
+
+    <script src="scripts/render-publications.js"></script>
+    
+    <div id="footer"></div>
+    
+</html>

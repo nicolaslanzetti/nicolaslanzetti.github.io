@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+	<head>
+        <title>Nicolas Lanzetti</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+            
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Header and footer (inlined to work without a server) -->
+        
+        <style>
+        /* Columns */
+        * {
+          box-sizing: border-box;
+        }
+
+        .column {
+          float: left;
+        }
+        
+        .left {
+          width: 30%;
+        }
+
+        .right {
+          width: 70%;
+        }
+
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        </style>
+	</head>
+    
+    <body>
+        <!-- <header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="publications.html">Publications</a>
+            </li>
+            <li>
+                <a href="teaching.html">Teaching</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+ -->
+
+        <div id="header"></div>
+        <div class="row">
+            <div class="column left">
+                <img src=files/pic.png style="height:auto; width:100%; float:left; padding:15px;"/>
+            </div>
+            <div class="column right">
+                <p><font size="5">Nicolas Lanzetti</font></p>
+                <p>postdoctoral researcher</p>
+                <p>
+                <a href="https://control.ee.ethz.ch" target="_blank"> Automatic Control Laboratory</a><br>
+                <a href="https://ethz.ch/en.html" target="_blank"> ETH Z&uumlrich</a><br>
+                Physikstrasse 3, ETL K26<br>
+                CH-8092 Z&uumlrich
+                </p>
+                <p style="margin-bottom:1cm">
+                <a href="mailto:lnicolas@caltech.edu">lnicolas@caltech.edu</a><br>
+                <a href="https://scholar.google.ch/citations?user=gWJV1rQAAAAJ&hl=en"><i class="fa fa-graduation-cap" style="color: #484848"></i></a>
+                &nbsp;
+                <a href="https://www.linkedin.com/in/nicolas-lanzetti-05852a158"><i class="fa fa-linkedin-square" style="color: #484848"></i></a>
+                <!--
+                &nbsp;
+                A
+                <a href="https://www.researchgate.net/profile/Nicolas-Lanzetti"><i class="fab fa-researchgate" style="color: #484848"></i></a>-->
+                </p>
+            </div>
+        </div>
+        
+        <p>
+        Previously, I was a PhD Student at the <a href="https://control.ee.ethz.ch" target="_blank"> Automatic Control Laboratory</a> at <a href="https://ethz.ch/en.html" target="_blank"> ETH Z&uumlrich</a> under the supervision of Prof. Florian D&oumlrfler (main advisor) and Prof. Alessio Figalli (second advisor).
+        I was part of <a href="https://nccr-automation.ch" target="_blank"> NCCR Automation</a>.
+        In summer 2024, I was an intern in quantitative research at <a href="https://www.citadel.com/what-we-do/global-quantitative-strategies/" target="_blank">Citadel GQS</a>.
+        </p>
+        
+        <p>
+        My current research interests include optimal transport and gradient flows in the Wasserstein space, with applications in control theory, robust optimization, and game theory.
+        </p>
+        <!--         
+        <p>
+        I regularly offer student projects: see <a href="teaching.html"> here </a> if interested.
+        </p> -->
+        
+        
+        <h2>Short Bio</h2>
+        <p>
+        I received my BSc. and MSc. in Mechanical Engineering with focus in Robotics, Systems, and Control from <a href="https://ethz.ch/en.html" target="_blank"> ETH Z&uumlrich</a> in 2016 and 2019, respectively. During my Master's studies, I visited the <a href="http://www.mit.edu" target="_blank"> Massachussets Institute of Technology</a> and wrote my Master's thesis at <a href="https://www.stanford.edu" target="_blank"> Stanford University</a>, in Prof. Marco Pavone's  <a href="http://asl.stanford.edu" target="_blank">Autonomous Systems Lab</a>.
+        </p>
+        
+        
+        <h2>News</h2>
+        <p>
+		<table>
+        <tr>
+            <th style="width:130px">February 2025</th>
+            <td>Our paper <a href="https://arxiv.org/abs/2205.00343" target="_blank"><i>Distributional Uncertainty Propagation via Optimal Transport</i></a> has been accepted for publication in the IEEE Transactions on Automatic Control.</td>
+        </tr>
+        <tr>
+            <th>November 2024</th>
+            <td>In our new <a href="https://arxiv.org/abs/2406.22826" target="_blank">preprint</a>, we show that linear feedback policies are optimal for the distributionally robust LQG problem, when the process and measurement noise distributions are independent, stationary, and belong to a Wasserstein ball around a Gaussian reference distribution. </td>
+        </tr>
+        <tr>
+            <th>October 2024</th>
+            <td>Our <a href="https://arxiv.org/abs/2406.12616" target="_blank">paper</a> Learning Diffusion at Lightspeed was accepted at NeurIPS for oral presentation! In the meantime, we also open-sourced the code. <a href="https://github.com/antonioterpin/jkonet-star" target="_blank">Check it out!</a></td> 
+        </tr>
+        <tr>
+            <th>October 2024</th>
+            <td>Our <a href="https://arxiv.org/abs/2406.17736" target="_blank">paper</a> Fairness in Social Influence Maximization via Optimal Transport was accepted at NeurIPS 2024. See you in Vancouver!</td>
+        </tr>
+        <tr>
+            <th>June 2024</th>
+            <td>In our new <a href="https://arxiv.org/abs/2406.10676" target="_blank">preprint</a>, we study very general optimality conditions for optimization in the probability space. What are they good for? For instance, to learn diffusion processes at lightspeed. You find the preprints <a href="https://arxiv.org/abs/2406.10676" target="_blank">here</a> and <a href="https://arxiv.org/abs/2406.12616" target="_blank">here</a>. </td>
+        </tr>
+        <tr>
+            <th>June 2024</th>
+            <td>How to ensure that the outcome of news-spreding mechanisms is fair across groups? In our new <a href="https://arxiv.org/abs/2406.17736" target="_blank">preprint</a>, we propose a novel highly expressive fairness metric and propose an algorithm to efficiently and fairly select early adopters.</td>
+        </tr>
+        <tr>
+            <th>June 2024</th>
+            <td>Our paper on <a href="https://arxiv.org/abs/2209.12197" target="_blank">first-order conditions for optimization in the Wasserstsein space</a> was accepted in the SIAM Journal on Mathematics of Data Science.</td>
+        </tr>
+        <tr>
+            <th>June 2024</th>
+            <td>I will spend the summer in New York City working as intern in quantitative research at <a href="https://www.citadel.com/what-we-do/global-quantitative-strategies/" target="_blank">Citadel GQS</a>. If you are in NYC, get in touch!</td>
+        </tr>
+        <tr>
+            <th>Mai 2024</th>
+            <td>Incredibly proud of my students Antonio Terpin and Sylvain Fricker for being awarded the ETH medal for their outstanding Master's thesis.</td>
+        </tr>
+		<tr>
+            <th>January 2024</th>
+            <td>Our research on <a href="https://arxiv.org/abs/2309.08967" target="_blank">the impact of recommendation systems on opinion dynamics</a> has been published with the <a href="https://montrealethics.ai/" target="_blank">Montreal AI Ethics Institute</a> as a part of their <a href="https://montrealethics.ai/blog" target="_blank">research summaries</a> initiative. <a href="https://montrealethics.ai/the-impact-of-recommendation-systems-on-opinion-dynamics-microscopic-versus-macroscopic-effects/ "target="_blank">Check it out!</a></td>
+        </tr>
+	    <tr>
+            <th>December 2023</th>
+            <td>I will present our work on <a href="https://arxiv.org/abs/2309.08967" target="_blank">the impact of recommendation systems on opinion dynamics</a> at the 62st IEEE Conference on Decision and Control (CDC). See you in Singapore!</td>
+        </tr>
+		<tr>
+            <th>November 2023</th>
+            <td>Our paper <a href="https://arxiv.org/pdf/2302.13550.pdf" target="_blank"><i>Dynamic Programming in Probability Spaces via Optimal Transport</i></a> has been accepted for publication in the SIAM Journal on Control and Optimization.</td>
+        </tr>
+		<tr>
+            <th>October 2023</th>
+            <td>Our paper <a href="https://ieeexplore.ieee.org/document/10337616" target="_blank"><i>On the Interplay between Self-Driving Cars and Public Transportation</i></a> has been accepted for publication in the IEEE Transactions on Control of Network Systems.</td>
+        </tr>
+        <tr>
+            <th>July 2023</th>
+            <td>Two papers accepted at the 62nd IEEE Conference on Decision and Control (CDC). See you in December in Singapore!</td>
+        </tr>
+        <tr>
+		<th>March 2023</th>
+            <td>How to optimally steer a fleet of identical agents or probability distributions? In our new <a href="https://arxiv.org/abs/2302.13550" target="_blank">preprint</a>, we show that many optimal control problems in probability admit a separation principle: The solution of dynamic programming in probability spaces results from (i) the solution of dynamic programming in the "ground space" (i.e., the space on which the probability measures live), and (ii) the solution of an optimal transport problem.</td>
+        </tr>
+        <tr>
+            <th>March 2023</th>
+            <td>Our paper  <a href="https://arxiv.org/abs/2301.12461" target="_blank"><i>Stochastic Wasserstein Gradient Flows using Streaming Data with an Application in Predictive Maintenance</i></a> was accepted at the 22nd IFAC World Congress. See you in July in Japan!</td>
+        </tr>
+        <tr>
+            <th>November 2022</th>
+            <td>Our paper <a href="https://arxiv.org/abs/2008.08975" target="_blank">Co-Design to Enable User-Friendly Tools to Assess the Impact of Future Mobility Systems</a> has been accepted for publication in the IEEE Transactions on Network Science and Engineering.</td>
+        </tr>
+        <tr>
+            <th>October 2022</th>
+            <td>How to measure closeness between policies in reinforcement learning? In our new <a href="https://arxiv.org/abs/2210.11137" target="_blank">NeurIPS paper</a>, we use optimal transport to define similarity between policies and to define trust regions for efficient and stable policy optimization... and it <a href="https://gitlab.ethz.ch/lnicolas/ot-trpo/-/blob/main/resources/HalfCheetah.gif" target="_blank">works</a>! See <a href="files/conferences/NeurIPS2022/lightboard.mp4" target="_blank">here</a> for a 5 minutes teaser!</td>
+        </tr>
+        <tr>
+            <th style="width:130px">September 2022</th>
+            <td>Can we do calculus in the probability space? In our new <a href="https://arxiv.org/abs/2209.12197" target="_blank">preprint</a>, we derive first-order conditions for optimality in probability spaces using optimal transport.</td>
+        </tr>
+        <tr>
+            <th>August 2022</th>
+            <td>Our paper  <a href="https://arxiv.org/abs/2209.05382" target="_blank"><i>Modeling of Political Systems using Wasserstein Gradient Flows</i></a> was accepted at the 61st IEEE Conference on Decision and Control (CDC).</td>
+        </tr>
+        <tr>
+            <th>June 2022</th>
+            <td>I am honored to receive the <a href="https://ee.ethz.ch/news-and-events/d-itet-news-channel/2022/06/outstanding-ta-awards-presented-for-the-second-time.html" target="_blank">Outstanding Teaching Assistant Award</a>.</td>
+        </tr>
+        <tr>
+            <th>April 2022</th>
+            <td>How to capture and propagate uncertainty about probability distributions (aka distributional uncertainty)? In our new <a href="https://arxiv.org/abs/2205.00343" target="_blank">preprint</a>, we use tools from optimal transport to study how complex systems shape distributional uncertainty.</td>
+        </tr>
+        <tr>
+            <th>September 2021</th>
+            <td>We are honored that our paper  <a href="https://arxiv.org/abs/2104.10394" target="_blank"><i>Game Theory to Study Interactions between Mobility Stakeholders</i></a> won <a><i>Best Paper Award (1st Place)</i></a> at the 24th IEEE International Conference on Intelligent Transportation Systems (ITSC).</td>
+        </tr>
+        <tr>
+            <th>July 2021</th>
+            <td>Our paper  <a href="https://arxiv.org/abs/2106.14827" target="_blank"><i>Analysis and Control of Autonomous Mobility-on-Demand Systems: A Review</i></a> was accepted to the Annual Review of Control, Robotics, and Autonomous Systems.</td>
+        </tr>
+        <tr>
+            <th>June 2021</th>
+            <td>We have a new preprint: Check it out <a href="https://arxiv.org/abs/2106.14827" target="_blank">here</a>.</td>
+        </tr>
+        <tr>
+            <th>June 2021</th>
+            <td>Our paper  <a href="https://arxiv.org/abs/2104.10394" target="_blank"><i>Game Theory to Study Interactions between Mobility Stakeholders</i></a> was accepted at the 24th IEEE International Conference on Intelligent Transportation Systems (ITSC).</td>
+        </tr>
+        <tr>
+            <th>April 2021</th>
+            <td>We have a new preprint: Check it out <a href="https://arxiv.org/pdf/2104.10394.pdf" target="_blank">here</a>.</td>
+        </tr>
+        <tr>
+            <th>December 2020</th>
+            <td>I am honored to receive the 2020 <a href="http://www.asro.ch/?page_id=150" target="_blank">SVOR/ASRO</a> award for the best Master's thesis.</td>
+        </tr>
+        <tr>
+            <th>June 2020</th>
+            <td>I am honored to receive the <a href="https://ethz.ch/en/the-eth-zurich/education/awards/eth-medal/outstanding-master-theses.html" target="_blank">ETH Medal</a> and the <a href="https://ethz.ch/en/the-eth-zurich/education/awards/willi-studer-prize.html" target="_blank">Willi Studer Prize</a>.</td>
+        </tr>
+        <tr>
+            <th>May 2020</th>
+            <td>Our paper  <a href="https://arxiv.org/abs/2003.04739" target="_blank"><i>On the Co-Design of AV-Enabled Mobility Systems</i></a> was accepted at the 23rd IEEE International Conference on Intelligent Transportation Systems (ITSC).</td>
+        </tr>
+        <tr>
+            <th>April 2020</th>
+            <td>We have a new preprint: Check it out <a href="https://arxiv.org/abs/2109.01627" target="_blank">here</a>.</td>
+        </tr>
+        <tr>
+            <th>November 2019</th>
+            <td>I presented our work <a href="https://www.research-collection.ethz.ch/handle/20.500.11850/375834" target="_blank"> on game-theoretic models for self-driving cars</a> at the INFORMS Annual Meeting in Seattle.</td>
+        </tr>
+        </table>
+        </p>
+
+        <div id="footer"></div>
+    <footer>
+    <ul>
+        <!--<li>
+            <a href="cv.pdf" target="_blank">Curriculum Vit&#230</a>
+        </li>-->
+        <!--<li>
+            <a href="mailto:lnicolas@ethz.ch">lnicolas@ethz.ch</a>
+        </li>-->
+        <!--
+        <li>
+            <a href="https://www.linkedin.com/in/gioele-zardini-9459a1155/"> <i class="fa fa-linkedin-square" style="font-size:24px"> </i></a>
+        </li>
+        <li>
+            <a href="https://scholar.google.it/citations?user=0c3J5KUAAAAJ&hl=it&oi=ao"> <i class="fa fa-google" style="font-size:24px"> </i> </a>
+        </li>-->
+    </ul>
+</footer>
+
+
+
+
+</body>
+</html>
