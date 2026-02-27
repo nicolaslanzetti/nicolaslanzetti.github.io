@@ -1,4 +1,14 @@
 [
+   {
+    "type": "cs_conference",
+    "title": "Gradient-flow SDEs Have Unique Transient Population Dynamics",
+    "authors": "V. Guan, J. Janssen, N. Lanzetti, A. Terpin, G. Schiebinger, E. Robeva",
+    "venue": "International Conference on Artificial Intelligence and Statistics",
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2505.21770",
+    "url_paper": "https://arxiv.org/pdf/2505.21770",
+    "abstract": "Identifying the drift and diffusion of an SDE from its population dynamics is a notoriously challenging task. Researchers in machine learning and single cell biology have only been able to prove a partial identifiability result: for potential-driven SDEs, the gradient-flow drift can be identified from temporal marginals if the Brownian diffusivity is already known. Existing methods therefore assume that the diffusivity is known a priori, despite it being unknown in practice. We dispel the need for this assumption by providing a complete characterization of identifiability: the gradient-flow drift and Brownian diffusivity are jointly identifiable from temporal marginals if and only if the process is observed outside of equilibrium. Given this fundamental result, we propose nn-APPEX, the first Schrödinger Bridge-based inference method that can simultaneously learn the drift and diffusion of gradient-flow SDEs solely from observed marginals. Extensive numerical experiments show that nn-APPEX's ability to adjust its diffusion estimate enables accurate inference, while previous Schrödinger Bridge methods obtain biased drift estimates due to their assumed, and likely incorrect, diffusion."
+  },
   {
     "type": "cs_conference",
     "title": "Learning Diffusion at Lightspeed",

@@ -1,5 +1,14 @@
 [
-	
+	{
+		"type": "preprint",
+		"title": "Hedging against Black Swans in Day-Ahead Energy Markets",
+		"authors": "L. Aolaritei*, B. Bangoura*, S. Bolognani, N. Lanzetti, F. Dörfler",
+		"venue": "Power Systems Computation Conference (PSCC)",
+		"year": "2026",
+		"url_title": "https://arxiv.org/abs/2510.14328",
+		"url_paper": "https://arxiv.org/pdf/2510.14328",
+		"abstract": "Renewable generators must commit to day-ahead market bids despite uncertainty in both production and real-time prices. While forecasts provide valuable guidance, rare and unpredictable extreme events (so-called black swans) can cause substantial financial losses. This paper models the nomination problem as an instance of optimal transport-based distributionally robust optimization (OT-DRO), a principled framework that balances risk and performance by accounting not only for the severity of deviations but also for their likelihood. The resulting formulation yields a tractable, data-driven strategy that remains competitive under normal conditions while providing effective protection against extreme price spikes. Using four years of Finnish wind farm and market data, we demonstrate that OT-DRO consistently outperforms forecast-based nominations and significantly mitigates losses during black swan events."
+  	},
 	{
 		"type": "conference",
 		"title": "The Impact of Recommendation Systems on Opinion Dynamics: Microscopic versus Macroscopic Effects",
