@@ -1,6 +1,16 @@
 [
   {
     "type": "preprint",
+    "title": "Sparse optimal control in the Wasserstein space",
+    "authors": "E. Sartor, F. Dörfler, N. Lanzetti",
+    "venue": "arXiv preprint",
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2603.00373",
+    "url_paper": "https://arxiv.org/pdf/2603.00373",
+    "abstract": "We study sparse optimal control of a non-local continuity equation, where the goal is to steer a distribution via finitely many controllable agents or actuators. This model arises naturally in mean-field multi-agent systems and takes the form of a coupled PDE-ODE system where the PDE describes the evolution of the distribution and the controlled ODE captures the dynamics of the controllable agents. A natural objective is distribution steering via terminal costs based on optimal transport, such as the squared Wasserstein distance. These costs are problematic for finite-agent formulations due to non-smoothness at empirical measures and they fall outside common expected-value-type cost classes. We address these challenges by studying the resulting optimal control problem in the Wasserstein space. Under suitable assumptions on the system dynamics and Wasserstein differentiability of the terminal cost (with no smoothness requirement on the associated Wasserstein gradient), we prove first-order sensitivity of the control-to-state map, derive an adjoint system and an explicit formula for the gradient of the cost functional, and obtain Pontryagin-type necessary conditions. To illustrate the resulting adjoint-based method, we present numerical experiments on a representative distribution-splitting task."
+  },
+  {
+    "type": "preprint",
     "title": "Training Generalizable Collaborative Agents via Strategic Risk Aversion",
     "authors": "C. Qu, Y. Zhang, N. Lanzetti, E. Mazumdar",
     "venue": "arXiv preprint",

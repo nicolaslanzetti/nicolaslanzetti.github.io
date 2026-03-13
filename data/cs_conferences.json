@@ -12,7 +12,7 @@
   {
     "type": "cs_conference",
     "title": "Learning Diffusion at Lightspeed",
-    "authors": "A. Terpin, N. Lanzetti, M. Gadea, and F. Dörfler.",
+    "authors": "A. Terpin, N. Lanzetti, M. Gadea, and F. Dörfler",
     "venue": "38th Conference on Neural Information Processing Systems (NeurIPS)",
     "year": "2024",
     "url_title": "https://arxiv.org/abs/2406.12616",
@@ -24,7 +24,7 @@
   {
     "type": "cs_conference",
     "title": "Fairness in Social Influence Maximization via Optimal Transport",
-    "authors": "S. Chowdary, G. De Pasquale*, N. Lanzetti*, A. Stoica, and F. Dörfler.",
+    "authors": "S. Chowdary, G. De Pasquale*, N. Lanzetti*, A. Stoica, and F. Dörfler",
     "venue": "38th Conference on Neural Information Processing Systems (NeurIPS)",
     "year": "2024",
     "url_title": "https://arxiv.org/abs/2406.17736",
@@ -35,7 +35,7 @@
   {
     "type": "cs_conference",
     "title": "Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions",
-    "authors": "A. Terpin*, N. Lanzetti*, B. Yardim, F. Dörfler, and G. Ramponi.",
+    "authors": "A. Terpin*, N. Lanzetti*, B. Yardim, F. Dörfler, and G. Ramponi",
     "venue": "36th Conference on Neural Information Processing Systems (NeurIPS)",
     "year": "2022",
     "url_title": "https://arxiv.org/abs/2210.11137",
