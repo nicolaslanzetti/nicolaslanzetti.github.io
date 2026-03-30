@@ -1,0 +1,51 @@
+[
+  {
+    "type": "control_conference",
+    "title": "The Impact of Recommendation Systems on Opinion Dynamics: Microscopic versus Macroscopic Effects",
+    "authors": "N. Lanzetti, F. Dörfler, and N. Pagan",
+    "venue": "IEEE Conference on Decision and Control (CDC)",
+    "year": "2023",
+    "url_title": "https://ieeexplore.ieee.org/document/10383957",
+    "url_paper": "https://arxiv.org/pdf/2309.08967",
+    "abstract": "Recommendation systems are widely used in web services, such as social networks and e-commerce platforms, to serve personalized content to the users and, thus, enhance their experience. While personalization assists users in navigating through the available options, there have been growing concerns regarding its repercussions on the users and their opinions. Examples of negative impacts include the emergence of filter bubbles and the amplification of users' confirmation bias, which can cause opinion polarization and radicalization. In this paper, we study the impact of recommendation systems on users, both from a microscopic (i.e., at the level of individual users) and a macroscopic (i.e., at the level of a homogenous population) perspective. Specifically, we build on recent work on the interactions between opinion dynamics and recommendation systems to propose a model for this closed loop, which we then study both analytically and numerically. Among others, our analysis reveals that shifts in the opinions of individual users do not always align with shifts in the opinion distribution of the population. In particular, even in settings where the opinion distribution appears unaltered (e.g., measured via surveys across the population), the opinion of individual users might be significantly distorted by the recommendation system."
+  },
+  {
+    "type": "control_conference",
+    "title": "Capture, Propagate, and Control Distributional Uncertainty",
+    "authors": "L. Aolaritei, N. Lanzetti, and F. Dörfler",
+    "venue": "IEEE Conference on Decision and Control (CDC)",
+    "year": "2023",
+    "url_title": "https://ieeexplore.ieee.org/document/10383424",
+    "url_paper": "https://arxiv.org/pdf/2304.02235",
+    "abstract": "We study stochastic dynamical systems in settings where only partial statistical information about the noise is available, e.g., in the form of a limited number of noise realizations. Such systems are particularly challenging to analyze and control, primarily due to an absence of a distributional uncertainty model which: (1) is expressive enough to capture practically relevant scenarios; (2) can be easily propagated through system maps; (3) is invariant under propagation; and (4) allows for computationally tractable control actions. In this paper, we propose to model distributional uncertainty via Optimal Transport ambiguity sets and show that such modeling choice satisfies all of the above requirements. We then specialize our results to stochastic LTI systems, and start by showing that the distributional uncertainty can be efficiently captured, with high probability, within an Optimal Transport ambiguity set on the space of noise trajectories. Then, we show that such ambiguity sets propagate exactly through the system dynamics, giving rise to stochastic tubes that contain, with high probability, all trajectories of the stochastic system. Finally, we show that the control task is very interpretable, unveiling an interesting decomposition between the roles of the feedforward and the feedback control terms. Our results are actionable and successfully applied in stochastic reachability analysis and in trajectory planning under distributional uncertainty."
+  },
+  {
+    "type": "control_conference",
+    "title": "Stochastic Wasserstein Gradient Flows using Streaming Data with an Application in Predictive Maintenance",
+    "authors": "N. Lanzetti, E. Balta, D. Liao-McPherson, and F. Dörfler",
+    "venue": "IFAC World Congress",
+    "year": "2022",
+    "url_title": "https://arxiv.org/abs/2301.12461",
+    "url_paper": "https://arxiv.org/pdf/2301.12461.pdf",
+    "abstract": "We study estimation problems in safety-critical applications with streaming data. Since estimation problems can be posed as optimization problems in the probability space, we devise a stochastic projected Wasserstein gradient flow that keeps track of the belief of the estimated quantity and can consume samples from online data. We show the convergence properties of our algorithm. Our analysis combines recent advances in the Wasserstein space and its differential structure with more classical stochastic gradient descent. We apply our methodology for predictive maintenance of safety-critical processes: Our approach is shown to lead to superior performance when compared to classical least squares, enabling, among others, improved robustness for decision-making."
+  },
+  {
+    "type": "control_conference",
+    "title": "Modeling of Political Systems using Wasserstein Gradient Flows",
+    "authors": "N. Lanzetti*, J. Hajar*, and F. Dörfler",
+    "venue": "IEEE Conference on Decision and Control (CDC)",
+    "year": "2022",
+    "url_title": "https://ieeexplore.ieee.org/document/9992779",
+    "url_paper": "https://arxiv.org/pdf/2209.05382",
+    "abstract": "The study of complex political phenomena such as parties' polarization calls for mathematical models of political systems. In this paper, we aim at modeling the time evolution of a political system whereby various parties selfishly interact to maximize their political success (e.g., number of votes). More specifically, we identify the ideology of a party as a probability distribution over a one-dimensional real-valued ideology space, and we formulate a gradient flow in the probability space (also called a Wasserstein gradient flow) to study its temporal evolution. We characterize the equilibria of the arising dynamic system, and establish local convergence under mild assumptions. We calibrate and validate our model with real-world time-series data of the time evolution of the ideologies of the Republican and Democratic parties in the US Congress. Our framework allows to rigorously reason about various political effects such as parties' polarization and homogeneity. Among others, our mechanistic model can explain why political parties become more polarized and less inclusive with time (their distributions get tighter), until all candidates in a party converge asymptotically to the same ideological position."
+  },
+  {
+    "type": "control_conference",
+    "title": "Recurrent Neural Network Based MPC for Process Industries",
+    "authors": "N. Lanzetti, Y. Z. Lian, A. Cortinovis, L. Dominguez, M. Mercangöz, and C. Jones",
+    "venue": "European Control Conference (ECC)",
+    "year": "2019",
+    "url_title": "https://ieeexplore.ieee.org/document/8796106",
+    "bibtex": "@inproceedings{lanzetti2019recurrent,\n  title={Recurrent neural network based MPC for process industries},\n  author={Lanzetti, Nicolas and Lian, Ying Zhao and Cortinovis, Andrea and Dominguez, Luis and Mercang{\\\"o}z, Mehmet and Jones, Colin},\n  booktitle={2019 18th European Control Conference (ECC)},\n  pages={1005--1010},\n  year={2019},\n  organization={IEEE}\n}"
+  }
+]

@@ -14,7 +14,8 @@
     if (!data) {
       // fetch multiple files in parallel and merge
       const urls = ['data/preprints.json','data/journals.json','data/conferences.json','data/others.json',
-        'data/cs_conferences.json','data/dissertations.json','data/lecture_notes.json'];
+        'data/cs_conferences.json','data/control_conferences.json','data/energy_transportation_conferences.json',
+        'data/dissertations.json','data/lecture_notes.json'];
       const promises = urls.map(u => fetch(u).then(r => r.ok ? r.json().catch(()=>[]) : []).catch(()=>[]));
       const results = await Promise.all(promises);
       data = results.flat().filter(Boolean);
@@ -23,14 +24,18 @@
     const pre    = document.getElementById('preprints-list');
     const journal = document.getElementById('journal-list');
     const csconf  = document.getElementById('cs-conferences-list');
+    const ctrlconf = document.getElementById('control-conferences-list');
+    const etconf  = document.getElementById('energy-transportation-conferences-list');
     const diss    = document.getElementById('dissertations-list');
     const lnotes  = document.getElementById('lecture-notes-list');
-    if (!pre && !journal && !csconf && !diss && !lnotes) return;
-    if (pre)    pre.innerHTML    = '';
-    if (journal) journal.innerHTML = '';
-    if (csconf)  csconf.innerHTML  = '';
-    if (diss)    diss.innerHTML    = '';
-    if (lnotes)  lnotes.innerHTML  = '';
+    if (!pre && !journal && !csconf && !ctrlconf && !etconf && !diss && !lnotes) return;
+    if (pre)      pre.innerHTML      = '';
+    if (journal)  journal.innerHTML  = '';
+    if (csconf)   csconf.innerHTML   = '';
+    if (ctrlconf) ctrlconf.innerHTML = '';
+    if (etconf)   etconf.innerHTML   = '';
+    if (diss)     diss.innerHTML     = '';
+    if (lnotes)   lnotes.innerHTML   = '';
 
     function makeButton(kind, url) {
       const btn = document.createElement('button');
@@ -83,7 +88,6 @@
       if (p.video)  resources.appendChild(makeButton('video',  p.video));
 
       let pendingAbstract = null;
-      let pendingBib = null;
 
       const aid = `abstract-${idx}`;
       const abtn = document.createElement('button');
@@ -111,23 +115,10 @@
         resources.appendChild(abtn);
       }
 
-      if (p.bibtex) {
-        const bid = `bib-${idx}`;
-        const bbtn = makeButton('bib');
-        bbtn.setAttribute('data-target', bid);
-        resources.appendChild(bbtn);
-        const bdiv = document.createElement('div');
-        bdiv.className = 'boxcitation';
-        bdiv.id = bid;
-        bdiv.style.display = 'none';
-        bdiv.innerHTML = `<pre style="white-space:pre-wrap">${p.bibtex}</pre>`;
-        pendingBib = bdiv;
-      }
 
       li.appendChild(container);
       li.appendChild(resources);
       if (pendingAbstract) li.appendChild(pendingAbstract);
-      if (pendingBib) li.appendChild(pendingBib);
 
       const appendTo = (el) => {
         if (el) el.appendChild(li);
@@ -136,13 +127,14 @@
         else document.body.appendChild(li);
       };
 
-      if      (p.type === 'preprint')     appendTo(pre);
-      else if (p.type === 'journal')      appendTo(journal);
-      else if (p.type === 'cs_conference') appendTo(csconf || pre);
-      else if (p.type === 'conference')   appendTo(document.getElementById('conferences-list') || pre);
-      else if (p.type === 'dissertation') appendTo(diss || pre);
-      else if (p.type === 'lecture_notes') appendTo(lnotes || pre);
-      else                                appendTo(pre);
+      if      (p.type === 'preprint')                        appendTo(pre);
+      else if (p.type === 'journal')                         appendTo(journal);
+      else if (p.type === 'cs_conference')                   appendTo(csconf || pre);
+      else if (p.type === 'control_conference')              appendTo(ctrlconf || pre);
+      else if (p.type === 'energy_transportation_conference') appendTo(etconf || pre);
+      else if (p.type === 'dissertation')                    appendTo(diss || pre);
+      else if (p.type === 'lecture_notes')                   appendTo(lnotes || pre);
+      else                                                   appendTo(pre);
     });
   } catch(e) {
     console.error('Failed to load publications data', e);
