@@ -1,6 +1,16 @@
 [
   {
     "type": "preprint",
+    "title": "Strategically robust linear quadratic dynamic games",
+    "authors": "B. Velasevic, N. Lanzetti, and E. Mazumdar",
+    "venue": "arXiv preprint",
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2604.22318",
+    "url_paper": "https://arxiv.org/pdf/2604.22318",
+    "abstract": "We introduce strategic robustness to linear quadratic dynamic games, where players are uncertain about each other's control policies. We reformulate these games so that each player chooses a controller in a fictitious game in which they face an adversary penalized for deviating from the other players' policies. We establish a new equilibrium concept — strategically robust dynamic equilibria — prove existence and uniqueness under specified conditions, and show that equilibrium policies are linear, Markovian, and computable via coupled Riccati equations. Empirically, robustness can improve social welfare without corresponding performance losses, a free-lunch phenomenon bridging game theory and robust control."
+  },
+  {
+    "type": "preprint",
     "title": "Sparse optimal control in the Wasserstein space",
     "authors": "E. Sartor, F. Dörfler, N. Lanzetti",
     "venue": "arXiv preprint",
@@ -11,7 +21,7 @@
   },
   {
     "type": "preprint",
-    "title": "Training Generalizable Collaborative Agents via Strategic Risk Aversion",
+    "title": "Training generalizable collaborative agents via strategic risk aversion",
     "authors": "C. Qu, Y. Zhang, N. Lanzetti, E. Mazumdar",
     "venue": "arXiv preprint",
     "year": "2026",
@@ -21,7 +31,7 @@
   },
   {
     "type": "preprint",
-    "title": "Strategically Robust Game Theory via Optimal Transport",
+    "title": "Strategically robust game theory via optimal transport",
     "authors": "N. Lanzetti*, S. Fricker*, S. Bolognani, F. Dörfler, D. Paccagnan",
     "venue": "arXiv preprint",
     "year": "2025",
@@ -31,7 +41,7 @@
   },
   {
     "type": "preprint",
-    "title": "Optimality of Linear Policies for Distributionally Robust Linear Quadratic Gaussian Regulator with Stationary Distributions",
+    "title": "Optimality of linear policies for distributionally robust linear quadratic Gaussian regulator with stationary distributions",
     "authors": "N. Lanzetti*, A. Terpin*, and F. Dörfler",
     "venue": "arXiv preprint",
     "year": "2025",
@@ -41,7 +51,7 @@
 	},
   {
     "type": "preprint",
-    "title": "Variational Analysis in the Wasserstein Space",
+    "title": "Variational analysis in the Wasserstein space",
     "authors": "N. Lanzetti*, A. Terpin*, F. Dörfler",
     "venue": "arXiv preprint",
     "year": "2024",

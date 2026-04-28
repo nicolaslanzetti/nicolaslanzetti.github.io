@@ -1,7 +1,7 @@
 [
   {
     "type": "journal",
-    "title": "Distributional Uncertainty Propagation via Optimal Transport",
+    "title": "Distributional uncertainty propagation via optimal transport",
     "authors": "L. Aolaritei*, N. Lanzetti*, H. Chen, F. Dörfler",
     "venue": "IEEE Transactions on Automatic Control",
     "year": "2025",
@@ -11,7 +11,7 @@
   },
   {
     "type": "journal",
-    "title": "First-order Conditions for Optimization in the Wasserstein Space",
+    "title": "First-order conditions for optimization in the Wasserstein space",
     "authors": "N. Lanzetti, S. Bolognani, F. Dörfler",
     "venue": "SIAM Journal on Mathematics of Data Science",
     "year": "2025",
@@ -22,7 +22,7 @@
   },
   {
     "type": "journal",
-    "title": "Dynamic Programming in Probability Spaces via Optimal Transport",
+    "title": "Dynamic programming in probability spaces via optimal transport",
     "authors": "A. Terpin*, N. Lanzetti*, and F. Dörfler",
     "venue": "SIAM Journal on Control and Optimization",
     "year": "2024",
@@ -33,7 +33,7 @@
   },
   {
     "type": "journal",
-    "title": "On the Interplay between Self-driving Cars and Public Transportation",
+    "title": "On the interplay between self-driving cars and public transportation",
     "authors": "N. Lanzetti, M. Schiffer, M. Ostrovsky, and M. Pavone",
     "venue": "IEEE Transactions on Control of Network Systems",
     "year": "2023",
@@ -43,7 +43,7 @@
   },
   {
     "type": "journal",
-    "title": "Co-Design to Enable User-Friendly Tools to Assess the Impact of Future Mobility Solutions",
+    "title": "Co-design to enable user-friendly tools to assess the impact of future mobility solutions",
     "authors": "G. Zardini, N. Lanzetti, A. Censi, E. Frazzoli, and M. Pavone",
     "venue": "IEEE Transactions on Network Science and Engineering",
     "year": "2022",
@@ -53,7 +53,7 @@
   },
   {
     "type": "journal",
-    "title": "Analysis and Control of Autonomous Mobility-on-Demand Systems",
+    "title": "Analysis and control of autonomous mobility-on-demand systems",
     "authors": "G. Zardini*, N. Lanzetti*, M. Pavone, and E. Frazzoli",
     "venue": "Annual Review of Control, Robotics, and Autonomous Systems",
     "year": "2022",
@@ -63,7 +63,7 @@
   },
   {
     "type": "journal",
-    "title": "Optimal Low-level Control Strategies for a High-performance Hybrid Electric Power Unit",
+    "title": "Optimal low-level control strategies for a high-performance hybrid electric power unit",
     "authors": "C. Balerna, N. Lanzetti, M. Salazar, A. Cerofolini, and C. Onder",
     "venue": "Applied Energy",
     "year": "2020",
@@ -73,7 +73,7 @@
   },
   {
     "type": "journal",
-    "title": "Intermodal Autonomous Mobility-on-Demand",
+    "title": "Intermodal autonomous mobility-on-demand",
     "authors": "M. Salazar, N. Lanzetti, F. Rossi, M. Schiffer, and M. Pavone",
     "venue": "IEEE Transactions on Intelligent Transportation Systems",
     "year": "2019",

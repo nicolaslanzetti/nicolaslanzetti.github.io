@@ -1,7 +1,7 @@
 [
   {
     "type": "energy_transportation_conference",
-    "title": "Hedging against Black Swans in Day-Ahead Energy Markets",
+    "title": "Hedging against black swans in day-ahead energy markets",
     "authors": "L. Aolaritei*, B. Bangoura*, S. Bolognani, N. Lanzetti, F. Dörfler",
     "venue": "Power Systems Computation Conference (PSCC)",
     "year": "2026",
@@ -11,7 +11,7 @@
   },
   {
     "type": "energy_transportation_conference",
-    "title": "Strategic Interactions in Multi-modal Mobility Systems: A Game-Theoretic Perspective",
+    "title": "Strategic interactions in multi-modal mobility systems: A game-theoretic perspective",
     "authors": "G. Zardini*, N. Lanzetti*, G. Belgioioso, C. Hartnik, S. Bolognani, F. Dörfler, E. Frazzoli",
     "venue": "IEEE Intelligent Transportation Systems Conference (ITSC)",
     "year": "2023",
@@ -21,7 +21,7 @@
   },
   {
     "type": "energy_transportation_conference",
-    "title": "Game Theory to Study Interactions between Mobility Stakeholders",
+    "title": "Game theory to study interactions between mobility stakeholders",
     "authors": "G. Zardini*, N. Lanzetti*, L. Guerrini, E. Frazzoli, and F. Dörfler",
     "venue": "IEEE Intelligent Transportation Systems Conference (ITSC)",
     "year": "2021",
@@ -32,7 +32,7 @@
   },
   {
     "type": "energy_transportation_conference",
-    "title": "On the Co-Design of AV-Enabled Mobility Systems",
+    "title": "On the co-design of AV-enabled mobility systems",
     "authors": "G. Zardini, N. Lanzetti, M. Salazar, A. Censi, E. Frazzoli, and M. Pavone",
     "venue": "IEEE Intelligent Transportation Systems Conference (ITSC)",
     "year": "2020",
@@ -42,7 +42,7 @@
   },
   {
     "type": "energy_transportation_conference",
-    "title": "Adaptation Algorithms for the Hybrid Electric Powertrain of a Race Car",
+    "title": "Adaptation algorithms for the hybrid electric powertrain of a race car",
     "authors": "C. Balerna, M. Salazar, N. Lanzetti, C. H. Onder, and C. Bussi",
     "venue": "FISITA World Automotive Congress (FISITA)",
     "year": "2018",

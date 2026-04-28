@@ -1,7 +1,17 @@
 [
   {
     "type": "control_conference",
-    "title": "The Impact of Recommendation Systems on Opinion Dynamics: Microscopic versus Macroscopic Effects",
+    "title": "Strategically robust aggregative games",
+    "authors": "A. Feik, N. Lanzetti, S. Bolognani, F. Dörfler, and D. Paccagnan",
+    "venue": "European Control Conference (ECC)",
+    "year": "2026",
+    "url_paper": "https://arxiv.org/pdf/2604.23669",
+    "url_title": "https://arxiv.org/abs/2604.23669",
+    "abstract": "In multiagent systems like electric vehicle charging and traffic routing, agents face uncertainty about others' behavior. Rather than modeling all uncertainty sources explicitly, this work proposes that each agent protects itself against the worst-case aggregate behavior within an optimal-transport-based ambiguity set. We introduce strategically robust Wardrop equilibrium — a concept that interpolates between standard Wardrop equilibria and maximum-robustness security strategies using a tunable radius parameter. For convex aggregative games, we establish existence of pure strategically robust Wardrop equilibria and reformulate the problem as finding standard Wardrop equilibria in a modified game. Our electric vehicle charging application reveals a striking phenomenon: strategic robustness can yield lower equilibrium costs for all agents, enabling coordination-via-robustification, potentially driving inefficiency metrics to optimal levels."
+  },
+  {
+    "type": "control_conference",
+    "title": "The impact of recommendation systems on opinion dynamics: microscopic versus macroscopic effects",
     "authors": "N. Lanzetti, F. Dörfler, and N. Pagan",
     "venue": "IEEE Conference on Decision and Control (CDC)",
     "year": "2023",
@@ -11,7 +21,7 @@
   },
   {
     "type": "control_conference",
-    "title": "Capture, Propagate, and Control Distributional Uncertainty",
+    "title": "Capture, propagate, and control distributional uncertainty",
     "authors": "L. Aolaritei, N. Lanzetti, and F. Dörfler",
     "venue": "IEEE Conference on Decision and Control (CDC)",
     "year": "2023",
@@ -21,7 +31,7 @@
   },
   {
     "type": "control_conference",
-    "title": "Stochastic Wasserstein Gradient Flows using Streaming Data with an Application in Predictive Maintenance",
+    "title": "Stochastic Wasserstein gradient flows using streaming data with an application in predictive maintenance",
     "authors": "N. Lanzetti, E. Balta, D. Liao-McPherson, and F. Dörfler",
     "venue": "IFAC World Congress",
     "year": "2022",
@@ -31,7 +41,7 @@
   },
   {
     "type": "control_conference",
-    "title": "Modeling of Political Systems using Wasserstein Gradient Flows",
+    "title": "Modeling of political systems using Wasserstein gradient flows",
     "authors": "N. Lanzetti*, J. Hajar*, and F. Dörfler",
     "venue": "IEEE Conference on Decision and Control (CDC)",
     "year": "2022",
@@ -41,7 +51,7 @@
   },
   {
     "type": "control_conference",
-    "title": "Recurrent Neural Network Based MPC for Process Industries",
+    "title": "Recurrent neural network based MPC for process industries",
     "authors": "N. Lanzetti, Y. Z. Lian, A. Cortinovis, L. Dominguez, M. Mercangöz, and C. Jones",
     "venue": "European Control Conference (ECC)",
     "year": "2019",
