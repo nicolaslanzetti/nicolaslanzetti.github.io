@@ -13,12 +13,23 @@
     }
     if (!data) {
       // fetch multiple files in parallel and merge
-      const urls = ['data/preprints.json','data/journals.json','data/conferences.json','data/others.json',
+      const urls = ['data/preprints.json','data/journals.json',
         'data/cs_conferences.json','data/control_conferences.json','data/energy_transportation_conferences.json',
-        'data/dissertations.json','data/lecture_notes.json'];
-      const promises = urls.map(u => fetch(u).then(r => r.ok ? r.json().catch(()=>[]) : []).catch(()=>[]));
+        'data/dissertations.json'];
+      const promises = urls.map(u => fetch(u)
+        .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP ' + r.status)))
+        .catch(err => { console.warn('Failed to load', u, err); return []; }));
       const results = await Promise.all(promises);
       data = results.flat().filter(Boolean);
+    }
+
+    if (!data || data.length === 0) {
+      const host = document.querySelector('main') || document.body;
+      const note = document.createElement('p');
+      note.textContent = 'Publications could not be loaded. If you opened this file directly from disk, view it through a local web server instead (e.g. run "python3 -m http.server" in the site folder, then open http://localhost:8000/publications.html).';
+      note.style.color = '#B22222';
+      host.insertBefore(note, host.firstChild);
+      return;
     }
 
     const pre    = document.getElementById('preprints-list');
@@ -27,15 +38,13 @@
     const ctrlconf = document.getElementById('control-conferences-list');
     const etconf  = document.getElementById('energy-transportation-conferences-list');
     const diss    = document.getElementById('dissertations-list');
-    const lnotes  = document.getElementById('lecture-notes-list');
-    if (!pre && !journal && !csconf && !ctrlconf && !etconf && !diss && !lnotes) return;
+    if (!pre && !journal && !csconf && !ctrlconf && !etconf && !diss) return;
     if (pre)      pre.innerHTML      = '';
     if (journal)  journal.innerHTML  = '';
     if (csconf)   csconf.innerHTML   = '';
     if (ctrlconf) ctrlconf.innerHTML = '';
     if (etconf)   etconf.innerHTML   = '';
     if (diss)     diss.innerHTML     = '';
-    if (lnotes)   lnotes.innerHTML   = '';
 
     function makeButton(kind, url) {
       const btn = document.createElement('button');
@@ -110,9 +119,6 @@
           try { window.open(p.url, '_blank', 'noopener'); } catch(e) { window.location.href = p.url; }
         };
         resources.appendChild(abtn);
-      } else {
-        abtn.disabled = true;
-        resources.appendChild(abtn);
       }
 
 
@@ -133,7 +139,6 @@
       else if (p.type === 'control_conference')              appendTo(ctrlconf || pre);
       else if (p.type === 'energy_transportation_conference') appendTo(etconf || pre);
       else if (p.type === 'dissertation')                    appendTo(diss || pre);
-      else if (p.type === 'lecture_notes')                   appendTo(lnotes || pre);
       else                                                   appendTo(pre);
     });
   } catch(e) {

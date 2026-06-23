@@ -1,24 +1,32 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
-		<title>Nicolas Lanzetti</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-            
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <title>Publications — Nicolas Lanzetti</title>
+        <meta name="description" content="Publications of Nicolas Lanzetti.">
+        <link rel="canonical" href="https://nicolaslanzetti.github.io/publications.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Publications — Nicolas Lanzetti">
+        <meta property="og:description" content="Publications of Nicolas Lanzetti.">
+        <meta property="og:url" content="https://nicolaslanzetti.github.io/publications.html">
+        <meta property="og:image" content="https://nicolaslanzetti.github.io/files/pic_lowres.jpg">
+        <meta name="twitter:card" content="summary">
+        <link rel="icon" type="image/png" href="files/favicon.png">
+        <link rel="apple-touch-icon" href="files/apple-touch-icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
         <header>
-            <nav>
+            <nav aria-label="primary">
                 <ul>
                     <li>
                         <a href="index.html">home</a>
                     </li>
                     <li>
-                        <a href="publications.html">publications</a>
+                        <a href="publications.html" aria-current="page">publications</a>
                     </li>
                     <li>
                         <a href="teaching.html">teaching</a>
@@ -27,7 +35,8 @@
             </nav>
         </header>
 
-        <main>
+        <main id="main">
+            <h1>publications</h1>
             <section>
                 <h2>preprints</h2>
                 <p>* indicates equal contribution/shared authorship</p>
@@ -64,12 +73,11 @@
                 <p>Please see <a href="teaching.html">teaching</a> for lecture notes and materials.</p>
             </section>
 
-        <!-- If JavaScript is disabled, view the canonical data at data/publications.json -->
-    </main>
+            <noscript>
+                <p>This page lists publications dynamically with JavaScript. Please enable JavaScript, or browse the underlying data in the <a href="https://github.com/nicolaslanzetti/nicolaslanzetti.github.io/tree/main/data" target="_blank" rel="noopener noreferrer">data folder</a>.</p>
+            </noscript>
+        </main>
 
-    <script src="scripts/render-publications.js"></script>
-    
-    <div id="footer"></div>
-
-</body>
+        <script src="scripts/render-publications.js"></script>
+    </body>
 </html>

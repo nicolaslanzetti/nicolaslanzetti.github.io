@@ -17,12 +17,6 @@ header {
   font-weight: bold;
 }
 
-footer {
-  background: #FFFFFF;
-  font-weight: bold;
-  margin: 2em 0px 10em 0px;
-}
-
 h1, h2, h3, p, li {
   color: #484848;
 }
@@ -61,38 +55,6 @@ nav ul li a {
   color: #484848;
 }
 
-footer ul {
-  text-align: center;
-}
-
-footer ul li {
-  display: inline-block;
-  list-style-type: none;
-  color: #484848;
-}
-
-footer ul li:not(:first-child):before {
-  padding: 1em;
-  margin: 0px;
-  content: "|";
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: #484848;
-}
-
-footer img {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0px;
-  margin: 0px;
-}
-
-.bounded {
-  width: 380px;
-}
-
 table {
   border-collapse: collapse;
   width: 100%;
@@ -107,6 +69,10 @@ table, td, th {
   border: 0px solid #dddddd;
   text-align: justify;
   padding: 0px;
+}
+
+.news th {
+  width: 130px;
 }
 
 .button {
@@ -127,15 +93,6 @@ table, td, th {
   text-align: justify;
   background-color: Gainsboro;
   margin-top: 10px;
-}
-
-.boxcitation {
-  width: 100%;
-  padding: 5px 5px 5px 45px;
-  text-align: justify;
-  background-color: Gainsboro;
-  margin-top: 10px;
-  text-indent: -40px;
 }
 
 .owner-name {
@@ -179,9 +136,11 @@ table, td, th {
   text-align: center;
 }
 
-.selected-item img.thumb {
+.selected-item .thumb {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 5;
+  background-size: cover;
+  background-position: center;
   border: 1px solid #ddd;
   display: block;
 }
@@ -197,7 +156,7 @@ table, td, th {
 }
 
 @media (max-width: 760px) {
-  .selected-item { width: 100%; }
+  .selected-item { width: 100%; min-width: 0; }
   .column { float: none !important; width: 100% !important; }
   .left img { float: none !important; display: block !important; width: 60% !important; height: auto !important; margin: 0 auto !important; }
 }

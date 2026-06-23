@@ -46,7 +46,6 @@
     "authors": "C. Balerna, M. Salazar, N. Lanzetti, C. H. Onder, and C. Bussi",
     "venue": "FISITA World Automotive Congress (FISITA)",
     "year": "2018",
-    "url_title": "https://www.research-collection.ethz.ch/items/a816916d-4f00-4c03-8b51-725698d07c6b",
-    "bibtex": "@inproceedings{balerna2018adaptation,\n  title={Adaptation algorithms for the hybrid electric powertrain of a race car},\n  author={Balerna, Camillo and Salazar, Mauro and Lanzetti, Nicolas and Onder, Christopher H and Bussi, Carlo},\n  booktitle={FISITA World Automotive Congress (FISITA 2018): Disruptive Technologies for Affordable and Sustainable Mobility},\n  volume={6},\n  pages={3253--3263},\n  year={2018},\n  organization={Curran}\n}"
+    "url_title": "https://www.research-collection.ethz.ch/items/a816916d-4f00-4c03-8b51-725698d07c6b"
   }
 ]

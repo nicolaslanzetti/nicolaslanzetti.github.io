@@ -1,6 +1,16 @@
 [
   {
     "type": "journal",
+    "title": "Distributionally robust linear quadratic Gaussian regulator with stationary distributions",
+    "authors": "A. Schöbi, N. Lanzetti, F. Dörfler, R. D'Andrea, and A. Terpin",
+    "venue": "IEEE Control Systems Letters",
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2410.22826",
+    "url_paper": "https://arxiv.org/pdf/2410.22826.pdf",
+    "abstract": "We study the Linear Quadratic Gaussian regulation problem in the face of worst-case noise distributions when these are mutually independent, zero-mean, stationary, and within a radius (as measured by the Wasserstein distance) of some reference Gaussian noise distributions. Compared with nonstationary ambiguity models, our stationary modeling choice reduces conservatism when the disturbances are stationary, as is often the case in practice. We first show optimality of linear output-feedback policies via the existence of a Nash equilibrium in an equivalent zero-sum game between a control engineer and a fictitious adversary that compete to minimize and maximize the control cost. Additionally, we show that Nash equilibria may fail to exist when the distributions are not restricted to have zero mean. We then propose an iterated best-response algorithm to compute Nash equilibria and thereby the optimal feedback policies. Our computational framework unifies two seemingly different viewpoints: game-theoretic iterated best response and Frank-Wolfe approaches. Finally, we illustrate the robustness of the proposed controller to unknown noise distributions on an inverted pendulum with physical parameters, a canonical control benchmark."
+  },
+  {
+    "type": "journal",
     "title": "Distributional uncertainty propagation via optimal transport",
     "authors": "L. Aolaritei*, N. Lanzetti*, H. Chen, F. Dörfler",
     "venue": "IEEE Transactions on Automatic Control",
@@ -68,7 +78,6 @@
     "venue": "Applied Energy",
     "year": "2020",
     "url_title": "https://www.sciencedirect.com/science/article/pii/S0306261920307601",
-    "url_paper": "https://www.sciencedirect.com/science/article/pii/S0306261920307601",
     "abstract": "We present models and optimization algorithms to compute optimal low-level control strategies for hybrid electric powertrains and validate our approach on a high-fidelity simulator."
   },
   {

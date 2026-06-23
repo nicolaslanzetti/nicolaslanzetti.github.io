@@ -41,16 +41,6 @@
   },
   {
     "type": "preprint",
-    "title": "Optimality of linear policies for distributionally robust linear quadratic Gaussian regulator with stationary distributions",
-    "authors": "N. Lanzetti*, A. Terpin*, and F. Dörfler",
-    "venue": "arXiv preprint",
-    "year": "2025",
-    "url_title": "https://arxiv.org/abs/2410.22826",
-    "url_paper": "https://arxiv.org/pdf/2410.22826.pdf",
-    "abstract": "We prove that output-feedback linear policies remain optimal for solving the Linear Quadratic Gaussian regulation problem in the face of worst-case process and measurement noise distributions when these are independent, stationary, and known to be within a radius (in the Wasserstein sense) to some reference zero-mean Gaussian noise distributions."
-	},
-  {
-    "type": "preprint",
     "title": "Variational analysis in the Wasserstein space",
     "authors": "N. Lanzetti*, A. Terpin*, F. Dörfler",
     "venue": "arXiv preprint",

@@ -1,21 +1,29 @@
 <!doctype html>
 <html lang="en">
 	<head>
-        <title>Nicolas Lanzetti</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-            
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <title>Nicolas Lanzetti</title>
+        <meta name="description" content="Nicolas Lanzetti is a postdoctoral researcher at Caltech developing the mathematical and algorithmic foundations of reliable AI-driven decision-making, drawing on optimization, control theory, and game theory.">
+        <link rel="canonical" href="https://nicolaslanzetti.github.io/index.html">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Nicolas Lanzetti">
+        <meta property="og:description" content="Postdoctoral researcher at Caltech working on reliable AI-driven decision-making — optimization, control, and game theory.">
+        <meta property="og:url" content="https://nicolaslanzetti.github.io/index.html">
+        <meta property="og:image" content="https://nicolaslanzetti.github.io/files/pic_lowres.jpg">
+        <meta name="twitter:card" content="summary">
+        <link rel="icon" type="image/png" href="files/favicon.png">
+        <link rel="apple-touch-icon" href="files/apple-touch-icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
     
     <body>
         <header>
-            <nav>
+            <nav aria-label="primary">
                 <ul>
                     <li>
-                        <a href="index.html">home</a>
+                        <a href="index.html" aria-current="page">home</a>
                     </li>
                     <li>
                         <a href="publications.html">publications</a>
@@ -27,12 +35,13 @@
             </nav>
         </header>
 
+        <main id="main">
         <div class="row">
             <div class="column left">
-                <img src="files/pic.png" alt="Portrait" style="width:100%; height:auto; padding:15px; display:block;" />
+                <img src="files/pic_lowres.jpg" alt="Portrait of Nicolas Lanzetti" style="width:100%; height:auto; padding:15px; display:block;" />
             </div>
             <div class="column right">
-                <h1 class="site-title">Nicolas Lanzetti</h1>
+                <h1>Nicolas Lanzetti</h1>
                 <p>postdoctoral researcher</p>
                 <p>
                 <a href="https://www.cms.caltech.edu/" target="_blank" rel="noopener noreferrer"> Computing and Mathematical Sciences</a><br>
@@ -42,13 +51,9 @@
                 </p>
                 <p class="profile-contact">
                 <a href="mailto:lnicolas@caltech.edu">lnicolas@caltech.edu</a><br>
-                <a href="https://scholar.google.ch/citations?user=gWJV1rQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-graduation-cap icon-lg" style="color: #484848"></i></a>
+                <a href="https://scholar.google.ch/citations?user=gWJV1rQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa fa-graduation-cap" style="color: #484848"></i></a>
                 &nbsp;
-                <a href="https://www.linkedin.com/in/nicolas-lanzetti-05852a158" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square icon-lg" style="color: #484848"></i></a>
-                <!--
-                &nbsp;
-                A
-                <a href="https://www.researchgate.net/profile/Nicolas-Lanzetti"><i class="fab fa-researchgate" style="color: #484848"></i></a>-->
+                <a href="https://www.linkedin.com/in/nicolas-lanzetti-05852a158" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square" style="color: #484848"></i></a>
                 </p>
             </div>
         </div>
@@ -75,24 +80,20 @@
             <h2>selected publications</h2>
             <div class="selected-grid">
                 <div class="selected-item">
-                    <a href="#" onclick="event.preventDefault(); return false;" aria-disabled="true" tabindex="-1" style="cursor:default;">
-                        <div class="thumb" style="width:100%; aspect-ratio:16/5; background-image:url('files/selected/srgt.png'); background-size:cover; background-position:center; border:1px solid #ddd; display:block;"></div>
-                    </a>
+                    <div class="thumb" role="img" aria-label="strategically robust game theory" style="background-image:url('files/selected/srgt.png');"></div>
                     <div class="selected-caption">
                         strategically robust game theory
                     </div>
                     <div class="selected-links">
                         <a href="https://arxiv.org/pdf/2507.15325" target="_blank" rel="noopener noreferrer">preprint</a>, 
                         <a href="https://arxiv.org/pdf/2602.21515" target="_blank" rel="noopener noreferrer">preprint</a>,
-                        <a href="https://arxiv.org/pdf/2604.23669" target="_blank" rel="noopener noreferrer">preprint</a>,
+                        <a href="https://arxiv.org/pdf/2604.23669" target="_blank" rel="noopener noreferrer">ECC</a>,
                         <a href="https://arxiv.org/pdf/2604.22318" target="_blank" rel="noopener noreferrer">preprint</a> 
                     </div>
                 </div>
 
                 <div class="selected-item">
-                    <a href="#" onclick="event.preventDefault(); return false;" aria-disabled="true" tabindex="-1" style="cursor:default;">
-                        <div class="thumb" style="width:100%; aspect-ratio:16/5; background-image:url('files/selected/opt.png'); background-size:cover; background-position:center; border:1px solid #ddd; display:block;"></div>
-                    </a>
+                    <div class="thumb" role="img" aria-label="optimization in the Wasserstein space" style="background-image:url('files/selected/opt.png');"></div>
                     <div class="selected-caption">
                         optimization in the Wasserstein space
                     </div>
@@ -104,9 +105,7 @@
                 </div>
 
                 <div class="selected-item">
-                    <a href="#" onclick="event.preventDefault(); return false;" aria-disabled="true" tabindex="-1" style="cursor:default;">
-                        <div class="thumb" style="width:100%; aspect-ratio:16/5; background-image:url('files/selected/dp.png'); background-size:cover; background-position:center; border:1px solid #ddd; display:block;"></div>
-                    </a>
+                    <div class="thumb" role="img" aria-label="separation principle for multi-agent control" style="background-image:url('files/selected/dp.png');"></div>
                     <div class="selected-caption">
                         separation principle for multi-agent control
                     </div>
@@ -116,9 +115,7 @@
                 </div>
 
                 <div class="selected-item">
-                    <a href="#" onclick="event.preventDefault(); return false;" aria-disabled="true" tabindex="-1" style="cursor:default;">
-                        <div class="thumb" style="width:100%; aspect-ratio:16/5; background-image:url('files/selected/dup.png'); background-size:cover; background-position:center; border:1px solid #ddd; display:block;"></div>
-                    </a>
+                    <div class="thumb" role="img" aria-label="distributional uncertainty propagation" style="background-image:url('files/selected/dup.png');"></div>
                     <div class="selected-caption">
                         distributional uncertainty propagation
                     </div>
@@ -130,74 +127,57 @@
         </section>
 
         <h2>latest news</h2>
-        <table>
+        <table class="news">
         <tr>
-            <th style="width:130px">March 2026</th>
+            <th>March 2026</th>
             <td>Together with Riccardo Bonalli and Thomas Lew, I am co-organizing a workshop on <a href="https://uac-ecc26.github.io" target="_blank" rel="noopener noreferrer">uncertainty-aware control</a> at ECC 2026. Join us in Reykjavík in July!</td>
         </tr>
         <tr>
-            <th style="width:130px">March 2026</th>
+            <th>March 2026</th>
             <td>How to optimally steer a distribution with only a few controllable agents? Check out our new <a href="https://arxiv.org/abs/2603.00373" target="_blank" rel="noopener noreferrer">preprint</a>.</td>
         </tr>
         <tr>
-            <th style="width:130px">February 2026</th>
+            <th>February 2026</th>
             <td>In our new <a href="https://arxiv.org/abs/2602.21515" target="_blank" rel="noopener noreferrer">preprint</a>, we use strategic risk aversion/robustness to train AI agents in collaborative multi-agent settings.</td>
         </tr>
         <tr>
-            <th style="width:130px">February 2026</th>
+            <th>February 2026</th>
             <td>I received the SAND Award at the Information Theory and Applications Workshop.</td>
         </tr>
         <tr>
-            <th style="width:130px">January 2026</th>
+            <th>January 2026</th>
             <td>Our <a href="https://arxiv.org/abs/2505.21770" target="_blank" rel="noopener noreferrer">paper</a> on the identification of gradient-flow SDEs was accepted at AISTATS 2026.</td>
         </tr>
         <tr>
-            <th style="width:130px">January 2026</th>
+            <th>January 2026</th>
             <td>Our <a href="https://arxiv.org/abs/2510.14328" target="_blank" rel="noopener noreferrer">paper</a> on hedging against black swans in day-ahead energy markets using distributionally robust optimization was accepted at PSCC 2026.</td>
         </tr>
         <tr>
-            <th style="width:130px">October 2025</th>
+            <th>October 2025</th>
             <td>I was selected as one of the NeurIPS top reviewers!</td>
         </tr>
         <tr>
-            <th style="width:130px">October 2025</th>
+            <th>October 2025</th>
             <td>New <a href="https://arxiv.org/abs/2510.14328" target="_blank" rel="noopener noreferrer">preprint</a> on hedging against black swans in day-ahead energy markets, using distributionally robust optimization.</td>
         </tr>
         <tr>
-            <th style="width:130px">October 2025</th>
+            <th>October 2025</th>
             <td>I have started my postdoc at Caltech!</td>
         </tr>
         <tr>
-            <th style="width:130px">August 2025</th>
+            <th>August 2025</th>
             <td>I successfully defended my PhD!</td>
         </tr>
         <tr>
-            <th style="width:130px">July 2025</th>
+            <th>July 2025</th>
             <td>New <a href="https://arxiv.org/abs/2507.15325" target="_blank" rel="noopener noreferrer">preprint</a> on strategically robust game theory. In multi-agent decision-making settings, how can agents be robust to one another's strategies?</td>
         </tr>
         <tr>
-            <th style="width:130px">February 2025</th>
-            <td>Our paper <a href="https://arxiv.org/abs/2205.00343" target="_blank" rel="noopener noreferrer"><i>Distributional Uncertainty Propagation via Optimal Transport</i></a> has been accepted for publication in the IEEE Transactions on Automatic Control.</td>
+            <th>February 2025</th>
+            <td>Our paper <a href="https://arxiv.org/abs/2205.00343" target="_blank" rel="noopener noreferrer"><i>Distributional uncertainty propagation via optimal transport</i></a> has been accepted for publication in the IEEE Transactions on Automatic Control.</td>
         </tr>
         </table>
-
-    <footer>
-    <ul>
-        <!--<li>
-            <a href="cv.pdf" target="_blank">Curriculum Vit&#230</a>
-        </li>-->
-        <!--<li>
-            <a href="mailto:lnicolas@ethz.ch">lnicolas@ethz.ch</a>
-        </li>-->
-        <!--
-        <li>
-            <a href="https://www.linkedin.com/in/gioele-zardini-9459a1155/"> <i class="fa fa-linkedin-square" style="font-size:24px"> </i></a>
-        </li>
-        <li>
-            <a href="https://scholar.google.it/citations?user=0c3J5KUAAAAJ&hl=it&oi=ao"> <i class="fa fa-google" style="font-size:24px"> </i> </a>
-        </li>-->
-    </ul>
-    </footer>
+        </main>
 
 </body>
 </html>

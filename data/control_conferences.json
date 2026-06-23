@@ -5,8 +5,8 @@
     "authors": "A. Feik, N. Lanzetti, S. Bolognani, F. Dörfler, and D. Paccagnan",
     "venue": "European Control Conference (ECC)",
     "year": "2026",
-    "url_paper": "https://arxiv.org/pdf/2604.23669",
     "url_title": "https://arxiv.org/abs/2604.23669",
+    "url_paper": "https://arxiv.org/pdf/2604.23669",
     "abstract": "In multiagent systems like electric vehicle charging and traffic routing, agents face uncertainty about others' behavior. Rather than modeling all uncertainty sources explicitly, this work proposes that each agent protects itself against the worst-case aggregate behavior within an optimal-transport-based ambiguity set. We introduce strategically robust Wardrop equilibrium — a concept that interpolates between standard Wardrop equilibria and maximum-robustness security strategies using a tunable radius parameter. For convex aggregative games, we establish existence of pure strategically robust Wardrop equilibria and reformulate the problem as finding standard Wardrop equilibria in a modified game. Our electric vehicle charging application reveals a striking phenomenon: strategic robustness can yield lower equilibrium costs for all agents, enabling coordination-via-robustification, potentially driving inefficiency metrics to optimal levels."
   },
   {
@@ -34,7 +34,7 @@
     "title": "Stochastic Wasserstein gradient flows using streaming data with an application in predictive maintenance",
     "authors": "N. Lanzetti, E. Balta, D. Liao-McPherson, and F. Dörfler",
     "venue": "IFAC World Congress",
-    "year": "2022",
+    "year": "2023",
     "url_title": "https://arxiv.org/abs/2301.12461",
     "url_paper": "https://arxiv.org/pdf/2301.12461.pdf",
     "abstract": "We study estimation problems in safety-critical applications with streaming data. Since estimation problems can be posed as optimization problems in the probability space, we devise a stochastic projected Wasserstein gradient flow that keeps track of the belief of the estimated quantity and can consume samples from online data. We show the convergence properties of our algorithm. Our analysis combines recent advances in the Wasserstein space and its differential structure with more classical stochastic gradient descent. We apply our methodology for predictive maintenance of safety-critical processes: Our approach is shown to lead to superior performance when compared to classical least squares, enabling, among others, improved robustness for decision-making."
@@ -55,7 +55,6 @@
     "authors": "N. Lanzetti, Y. Z. Lian, A. Cortinovis, L. Dominguez, M. Mercangöz, and C. Jones",
     "venue": "European Control Conference (ECC)",
     "year": "2019",
-    "url_title": "https://ieeexplore.ieee.org/document/8796106",
-    "bibtex": "@inproceedings{lanzetti2019recurrent,\n  title={Recurrent neural network based MPC for process industries},\n  author={Lanzetti, Nicolas and Lian, Ying Zhao and Cortinovis, Andrea and Dominguez, Luis and Mercang{\\\"o}z, Mehmet and Jones, Colin},\n  booktitle={2019 18th European Control Conference (ECC)},\n  pages={1005--1010},\n  year={2019},\n  organization={IEEE}\n}"
+    "url_title": "https://ieeexplore.ieee.org/document/8796106"
   }
 ]
