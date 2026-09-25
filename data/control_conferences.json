@@ -1,13 +1,30 @@
 [
   {
     "type": "control_conference",
+    "title": "Strategically robust linear quadratic dynamic games",
+    "authors": "B. Velasevic, N. Lanzetti, and E. Mazumdar",
+    "venue": "IEEE Conference on Decision and Control (CDC)",
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2604.22318",
+    "url_paper": "https://arxiv.org/pdf/2604.22318",
+    "abstract": "We study linear quadratic dynamic games where players are uncertain about each other's control policies or goals and consequently seek to be strategically robust. Building on recent work on strategically robust and risk-averse game theory, we first formalize the problem of strategically robust linear quadratic dynamic games. We show that these can be rewritten as simple transformations of linear quadratic games in which each player chooses a controller in a fictitious game in which they are faced with an adversary who is penalized for deviating from the other players' policies. This formulation naturally induces a novel notion of dynamic equilibrium, which we call a strategically robust dynamic equilibrium. We establish existence and uniqueness of such equilibria and furthermore show that the equilibrium policies are Markovian, linear, and can be efficiently computed via coupled backward Riccati equations. Through numerical simulations, including experiments in a network game, we illustrate the benefits of strategic robustness in designing robust and resilient decentralized control schemes. Our experiments also expose a \"free-lunch\" phenomenon in games in which robustness does not incur a corresponding loss in performance but can yield improvements in players' utilities and social welfare."
+  },
+  {
+    "type": "control_conference",
+    "title": "Strategically robust game-theoretic multi-agent trajectory optimization",
+    "authors": "V. L. Qin, N. Lanzetti, S. Bolognani, and H. Balakrishnan",
+    "venue": "IEEE Conference on Decision and Control (CDC)",
+    "year": "2026"
+  },
+  {
+    "type": "control_conference",
     "title": "Strategically robust aggregative games",
     "authors": "A. Feik, N. Lanzetti, S. Bolognani, F. Dörfler, and D. Paccagnan",
     "venue": "European Control Conference (ECC)",
     "year": "2026",
     "url_title": "https://arxiv.org/abs/2604.23669",
     "url_paper": "https://arxiv.org/pdf/2604.23669",
-    "abstract": "In multiagent systems like electric vehicle charging and traffic routing, agents face uncertainty about others' behavior. Rather than modeling all uncertainty sources explicitly, this work proposes that each agent protects itself against the worst-case aggregate behavior within an optimal-transport-based ambiguity set. We introduce strategically robust Wardrop equilibrium — a concept that interpolates between standard Wardrop equilibria and maximum-robustness security strategies using a tunable radius parameter. For convex aggregative games, we establish existence of pure strategically robust Wardrop equilibria and reformulate the problem as finding standard Wardrop equilibria in a modified game. Our electric vehicle charging application reveals a striking phenomenon: strategic robustness can yield lower equilibrium costs for all agents, enabling coordination-via-robustification, potentially driving inefficiency metrics to optimal levels."
+    "abstract": "In many multiagent settings, such as electric vehicle charging and traffic routing, agents must make decisions in the face of uncertain behavior exhibited by others. Often, this uncertainty arises from multiple sources, such as incomplete information, limited computation, or bounded rationality, ultimately impacting the aggregate behavior. To tackle this challenge, we follow recent work on strategically robust game theory and postulate that agents seek protection directly against deviations around the emergent behavior, as opposed to explicitly modeling all sources of uncertainty. Specifically, we propose that each agent protects itself against the worst-case aggregate behavior within an optimal-transport-based ambiguity set centered at the emergent aggregate population behavior. This leads to a novel equilibrium concept, called strategically robust Wardrop equilibrium, that enables one to interpolate between standard Wardrop equilibria (no robustness) and security strategies (maximum robustness). In the setting of convex aggregative games, we establish the existence of a pure strategically robust Wardrop equilibrium and provide tractable computational tools for computing it. Through an application in electric vehicle charging, we demonstrate that strategically robust Wardrop equilibria lead to better decisions, protecting agents against the uncertain aggregate behavior of the population. Remarkably, we also observe that strategic robustness can lead to lower equilibrium costs for all agents, uncovering a \"coordination-via-robustification\" effect."
   },
   {
     "type": "control_conference",
@@ -32,10 +49,10 @@
   {
     "type": "control_conference",
     "title": "Stochastic Wasserstein gradient flows using streaming data with an application in predictive maintenance",
-    "authors": "N. Lanzetti, E. Balta, D. Liao-McPherson, and F. Dörfler",
+    "authors": "N. Lanzetti, E. C. Balta, D. Liao-McPherson, and F. Dörfler",
     "venue": "IFAC World Congress",
     "year": "2023",
-    "url_title": "https://arxiv.org/abs/2301.12461",
+    "url_title": "https://doi.org/10.1016/j.ifacol.2023.10.1334",
     "url_paper": "https://arxiv.org/pdf/2301.12461.pdf",
     "abstract": "We study estimation problems in safety-critical applications with streaming data. Since estimation problems can be posed as optimization problems in the probability space, we devise a stochastic projected Wasserstein gradient flow that keeps track of the belief of the estimated quantity and can consume samples from online data. We show the convergence properties of our algorithm. Our analysis combines recent advances in the Wasserstein space and its differential structure with more classical stochastic gradient descent. We apply our methodology for predictive maintenance of safety-critical processes: Our approach is shown to lead to superior performance when compared to classical least squares, enabling, among others, improved robustness for decision-making."
   },
@@ -47,14 +64,14 @@
     "year": "2022",
     "url_title": "https://ieeexplore.ieee.org/document/9992779",
     "url_paper": "https://arxiv.org/pdf/2209.05382",
-    "abstract": "The study of complex political phenomena such as parties' polarization calls for mathematical models of political systems. In this paper, we aim at modeling the time evolution of a political system whereby various parties selfishly interact to maximize their political success (e.g., number of votes). More specifically, we identify the ideology of a party as a probability distribution over a one-dimensional real-valued ideology space, and we formulate a gradient flow in the probability space (also called a Wasserstein gradient flow) to study its temporal evolution. We characterize the equilibria of the arising dynamic system, and establish local convergence under mild assumptions. We calibrate and validate our model with real-world time-series data of the time evolution of the ideologies of the Republican and Democratic parties in the US Congress. Our framework allows to rigorously reason about various political effects such as parties' polarization and homogeneity. Among others, our mechanistic model can explain why political parties become more polarized and less inclusive with time (their distributions get tighter), until all candidates in a party converge asymptotically to the same ideological position."
+    "abstract": "The study of complex political phenomena such as parties' polarization calls for mathematical models of political systems. In this paper, we aim at modeling the time evolution of a political system whereby various parties selfishly interact to maximize their political success (e.g., number of votes). More specifically, we identify the ideology of a party as a probability distribution over a one-dimensional real-valued ideology space, and we formulate a gradient flow in the probability space (also called a Wasserstein gradient flow) to study its temporal evolution. We characterize the equilibria of the arising dynamic system, and establish local convergence under mild assumptions. We calibrate and validate our model with real-world time-series data of the time evolution of the ideologies of the Republican and Democratic parties in the US Congress. Our framework allows to rigorously reason about various political effects such as parties' polarization and homogeneity. Among others, our mechanistic model can explain why political parties become more polarized and less inclusive with time (their distributions get \"tighter\"), until all candidates in a party converge asymptotically to the same ideological position."
   },
   {
     "type": "control_conference",
     "title": "Recurrent neural network based MPC for process industries",
-    "authors": "N. Lanzetti, Y. Z. Lian, A. Cortinovis, L. Dominguez, M. Mercangöz, and C. Jones",
+    "authors": "N. Lanzetti, Y. Z. Lian, A. Cortinovis, L. Dominguez, M. Mercangöz, and C. N. Jones",
     "venue": "European Control Conference (ECC)",
     "year": "2019",
-    "url_title": "https://ieeexplore.ieee.org/document/8796106"
+    "url_title": "https://ieeexplore.ieee.org/document/8795809"
   }
 ]

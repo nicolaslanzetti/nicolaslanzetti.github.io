@@ -1,19 +1,41 @@
 [
   {
     "type": "cs_conference",
+    "title": "Training generalizable collaborative agents via strategic risk aversion",
+    "authors": "C. Qu, Y. Zhang, N. Lanzetti, and E. Mazumdar",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2602.21515",
+    "url_paper": "https://arxiv.org/pdf/2602.21515",
+    "abstract": "Many emerging agentic paradigms require agents to collaborate with one another (or people) to achieve shared goals. Unfortunately, existing approaches to learning policies for such collaborative problems produce brittle solutions that fail when paired with new partners. We attribute these failures to a combination of free-riding during training and a lack of strategic robustness. To address these problems, we study the concept of strategic risk aversion and interpret it as a principled inductive bias for generalizable cooperation with unseen partners. While strategically risk-averse players are robust to deviations in their partner's behavior by design, we show that, in collaborative games, they also (1) can have better equilibrium outcomes than those at classical game-theoretic concepts like Nash, and (2) exhibit less or no free-riding. Inspired by these insights, we develop a multi-agent reinforcement learning (MARL) algorithm that integrates strategic risk aversion into standard policy optimization methods. Our empirical results across collaborative benchmarks (including an LLM collaboration task) validate our theory and demonstrate that our approach consistently achieves reliable collaboration with heterogeneous and previously unseen partners across collaborative tasks.",
+    "notes": [
+      "oral presentation (0.36%)",
+      "oral presentation at the Conference on Language Modeling (COLM) 2026"
+    ]
+  },
+  {
+    "type": "cs_conference",
+    "title": "A separation principle for cooperative multi-agent reinforcement learning",
+    "authors": "L. Pezzetti, N. Lanzetti, A. Terpin, F. Dörfler, and G. Ramponi",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "year": "2026",
+    "notes": "oral presentation at the European Workshop on Reinforcement Learning (EWRL) 2026"
+  },
+  {
+    "type": "cs_conference",
     "title": "Gradient-flow SDEs have unique transient population dynamics",
-    "authors": "V. Guan, J. Janssen, N. Lanzetti, A. Terpin, G. Schiebinger, E. Robeva",
+    "authors": "V. Guan, J. Janssen, N. Lanzetti, A. Terpin, G. Schiebinger, and E. Robeva",
     "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
     "year": "2026",
     "url_title": "https://arxiv.org/abs/2505.21770",
     "url_paper": "https://arxiv.org/pdf/2505.21770",
-    "abstract": "Identifying the drift and diffusion of an SDE from its population dynamics is a notoriously challenging task. Researchers in machine learning and single cell biology have only been able to prove a partial identifiability result: for potential-driven SDEs, the gradient-flow drift can be identified from temporal marginals if the Brownian diffusivity is already known. Existing methods therefore assume that the diffusivity is known a priori, despite it being unknown in practice. We dispel the need for this assumption by providing a complete characterization of identifiability: the gradient-flow drift and Brownian diffusivity are jointly identifiable from temporal marginals if and only if the process is observed outside of equilibrium. Given this fundamental result, we propose nn-APPEX, the first Schrödinger Bridge-based inference method that can simultaneously learn the drift and diffusion of gradient-flow SDEs solely from observed marginals. Extensive numerical experiments show that nn-APPEX's ability to adjust its diffusion estimate enables accurate inference, while previous Schrödinger Bridge methods obtain biased drift estimates due to their assumed, and likely incorrect, diffusion."
+    "abstract": "Identifying the drift and diffusion of an SDE from its population dynamics is a notoriously challenging task. Researchers in machine learning and single-cell biology have only been able to prove a partial identifiability result: for potential-driven SDEs, the gradient-flow drift can be identified from temporal marginals if the Brownian diffusivity is already known. Existing methods therefore assume that the diffusivity is known a priori, despite it being unknown in practice. We dispel the need for this assumption by providing a complete characterization of identifiability: the gradient-flow drift and Brownian diffusivity are jointly identifiable from temporal marginals if and only if the process is observed outside of equilibrium. Given this fundamental result, we propose nn-APPEX, the first Schrödinger Bridge-based inference method that can simultaneously learn the drift and diffusion of a gradient-flow SDE solely from observed marginals. Extensive experiments show that nn-APPEX's ability to adjust its diffusion estimate enables accurate inference, while previous Schrödinger Bridge methods obtain biased drift estimates due to their assumed, and likely incorrect, diffusion."
   },
   {
     "type": "cs_conference",
     "title": "Learning diffusion at lightspeed",
     "authors": "A. Terpin, N. Lanzetti, M. Gadea, and F. Dörfler",
-    "venue": "38th Conference on Neural Information Processing Systems (NeurIPS)",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
     "year": "2024",
     "url_title": "https://arxiv.org/abs/2406.12616",
     "url_paper": "https://arxiv.org/pdf/2406.12616",
@@ -24,19 +46,19 @@
   {
     "type": "cs_conference",
     "title": "Fairness in social influence maximization via optimal transport",
-    "authors": "S. Chowdary, G. De Pasquale*, N. Lanzetti*, A. Stoica, and F. Dörfler",
-    "venue": "38th Conference on Neural Information Processing Systems (NeurIPS)",
+    "authors": "S. Chowdhary, G. De Pasquale*, N. Lanzetti*, A.-A. Stoica, and F. Dörfler",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
     "year": "2024",
     "url_title": "https://arxiv.org/abs/2406.17736",
     "url_paper": "https://arxiv.org/pdf/2406.17736",
     "code": "https://github.com/nicolaslanzetti/fairness-sim-ot",
-    "abstract": "We study fairness in social influence maximization, whereby one seeks to select seeds that spread a given information throughout a network, ensuring balanced outreach among different communities (e.g. demographic groups). In the literature, fairness is often quantified in terms of the expected outreach within individual communities. In this paper, we demonstrate that such fairness metrics can be misleading since they ignore the stochastic nature of information diffusion processes. When information diffusion occurs in a probabilistic manner, multiple outreach scenarios can occur. As such, outcomes such as \"in 50% of the cases, no one of group 1 receives the information and everyone in group 2 receives it and in other 50%, the opposite happens\", which always results in largely unfair outcomes, are classified as fair by a variety of fairness metrics in the literature. We tackle this problem by designing a new fairness metric, mutual fairness, that captures variability in outreach through optimal transport theory. We propose a new seed selection algorithm that optimizes both outreach and mutual fairness, and we show its efficacy on several real datasets. We find that our algorithm increases fairness with only a minor decrease (and at times, even an increase) in efficiency."
+    "abstract": "We study fairness in social influence maximization, whereby one seeks to select seeds that spread a given information throughout a network, ensuring balanced outreach among different communities (e.g. demographic groups). In the literature, fairness is often quantified in terms of the expected outreach within individual communities. In this paper, we demonstrate that such fairness metrics can be misleading since they overlook the stochastic nature of information diffusion processes. When information diffusion occurs in a probabilistic manner, multiple outreach scenarios can occur. As such, outcomes such as “In 50% of the cases, no one in group 1 gets the information, while everyone in group 2 does, and in the other 50%, it is the opposite”, which always results in largely unfair outcomes, are classified as fair by a variety of fairness metrics in the literature. We tackle this problem by designing a new fairness metric, mutual fairness, that captures variability in outreach through optimal transport theory. We propose a new seed-selection algorithm that optimizes both outreach and mutual fairness, and we show its efficacy on several real datasets. We find that our algorithm increases fairness with only a minor decrease (and at times, even an increase) in efficiency."
   },
   {
     "type": "cs_conference",
     "title": "Trust region policy optimization with optimal transport discrepancies: Duality and algorithm for continuous actions",
     "authors": "A. Terpin*, N. Lanzetti*, B. Yardim, F. Dörfler, and G. Ramponi",
-    "venue": "36th Conference on Neural Information Processing Systems (NeurIPS)",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
     "year": "2022",
     "url_title": "https://arxiv.org/abs/2210.11137",
     "url_paper": "https://arxiv.org/pdf/2210.11137",

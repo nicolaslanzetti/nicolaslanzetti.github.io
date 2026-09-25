@@ -47,20 +47,16 @@
     if (diss)     diss.innerHTML     = '';
 
     function makeButton(kind, url) {
-      const btn = document.createElement('button');
-      btn.className = 'button';
-      const icons = { paper: 'fa-file-pdf-o', code: 'fa-code', slides: 'fa-picture-o', video: 'fa-video-camera', bib: 'fa-quote-right' };
+      // real links, so crawlers can follow them and visitors can copy/middle-click them
+      const link = document.createElement('a');
+      link.className = 'button';
+      link.href = url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      const icons = { paper: 'fa-file-pdf-o', code: 'fa-code', slides: 'fa-picture-o', video: 'fa-video-camera' };
       const icon = icons[kind] || 'fa-link';
-      btn.innerHTML = `<i class="fa ${icon}"></i> ${kind.charAt(0).toUpperCase()+kind.slice(1)}`;
-      btn.onclick = () => {
-        if (kind === 'bib') {
-          const el = document.getElementById(btn.getAttribute('data-target'));
-          if (el) el.style.display = (el.style.display === 'block' ? 'none' : 'block');
-        } else {
-          try { window.open(url, '_blank', 'noopener'); } catch(e) { window.location.href = url; }
-        }
-      };
-      return btn;
+      link.innerHTML = `<i class="fa ${icon}" aria-hidden="true"></i> ${kind.charAt(0).toUpperCase()+kind.slice(1)}`;
+      return link;
     }
 
     function highlightOwner(text) {
@@ -74,7 +70,7 @@
       li.style.margin = '10px 0px';
 
       const titleLink = p.url_title || p.url || '';
-      const title = titleLink ? `<a href="${titleLink}" target="_blank" rel="noopener">${p.title}</a>` : p.title;
+      const title = titleLink ? `<a href="${titleLink}" target="_blank" rel="noopener noreferrer">${p.title}</a>` : p.title;
       let meta = `${p.authors || ''}`;
       if (p.venue || p.year) meta += `<br>${p.venue || ''}${p.year ? ', ' + p.year : ''}`;
       meta = highlightOwner(meta);
@@ -84,9 +80,10 @@
         : '';
 
       const container = document.createElement('div');
-      const notesText = p.notes ? (Array.isArray(p.notes) ? p.notes.join(', ') : p.notes) : null;
+      const notesText = p.notes ? (Array.isArray(p.notes) ? p.notes.join('<br>') : p.notes) : null;
       const notesHTML = notesText ? `<div class="notes" style="font-weight:700; margin-top:0">${notesText}</div>` : '';
-      container.innerHTML = `<em>${title}</em><br>${meta}${notesHTML}${committeeHTML}`;
+      const commentHTML = p.comment ? `<br>${p.comment}` : '';
+      container.innerHTML = `<em>${title}</em><br>${meta}${commentHTML}${notesHTML}${committeeHTML}`;
 
       const resources = document.createElement('div');
       resources.style.marginTop = '0';

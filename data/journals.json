@@ -5,24 +5,25 @@
     "authors": "A. Schöbi, N. Lanzetti, F. Dörfler, R. D'Andrea, and A. Terpin",
     "venue": "IEEE Control Systems Letters",
     "year": "2026",
-    "url_title": "https://arxiv.org/abs/2410.22826",
+    "url_title": "https://ieeexplore.ieee.org/document/11598942",
     "url_paper": "https://arxiv.org/pdf/2410.22826.pdf",
+    "comment": "selected for presentation at the IEEE Conference on Decision and Control (CDC) 2026",
     "abstract": "We study the Linear Quadratic Gaussian regulation problem in the face of worst-case noise distributions when these are mutually independent, zero-mean, stationary, and within a radius (as measured by the Wasserstein distance) of some reference Gaussian noise distributions. Compared with nonstationary ambiguity models, our stationary modeling choice reduces conservatism when the disturbances are stationary, as is often the case in practice. We first show optimality of linear output-feedback policies via the existence of a Nash equilibrium in an equivalent zero-sum game between a control engineer and a fictitious adversary that compete to minimize and maximize the control cost. Additionally, we show that Nash equilibria may fail to exist when the distributions are not restricted to have zero mean. We then propose an iterated best-response algorithm to compute Nash equilibria and thereby the optimal feedback policies. Our computational framework unifies two seemingly different viewpoints: game-theoretic iterated best response and Frank-Wolfe approaches. Finally, we illustrate the robustness of the proposed controller to unknown noise distributions on an inverted pendulum with physical parameters, a canonical control benchmark."
   },
   {
     "type": "journal",
     "title": "Distributional uncertainty propagation via optimal transport",
-    "authors": "L. Aolaritei*, N. Lanzetti*, H. Chen, F. Dörfler",
+    "authors": "L. Aolaritei*, N. Lanzetti*, H. Chen, and F. Dörfler",
     "venue": "IEEE Transactions on Automatic Control",
     "year": "2025",
     "url_title": "https://ieeexplore.ieee.org/document/10989586",
     "url_paper": "https://arxiv.org/pdf/2205.00343",
-    "abstract": "This paper addresses the limitations of standard uncertainty models, e.g., robust (norm-bounded) and stochastic (one fixed distribution, e.g., Gaussian), and proposes to model uncertainty via Optimal Transport (OT) ambiguity sets. These constitute a very rich uncertainty model, which enjoys many desirable geometrical, statistical, and computational properties, and which: (1) naturally generalizes both robust and stochastic models, and (2) captures many additional real-world uncertainty phenomena (e.g., black swan events). Our contributions show that OT ambiguity sets are also analytically tractable: they propagate easily and intuitively through linear and nonlinear (possibly corrupted by noise) transformations, and the result of the propagation is again an OT ambiguity set or can be tightly upper bounded by an OT ambiguity set. In the context of dynamical systems, our results allow us to consider multiple sources of uncertainty (e.g., initial condition, additive noise, multiplicative noise) and to capture in closed-form, via an OT ambiguity set, the resulting uncertainty in the state at any future time. Our results are actionable, interpretable, and readily employable in a great variety of computationally tractable control and estimation formulations. To highlight this, we study three applications in trajectory planning, consensus algorithms, and least squares estimation. We conclude the paper with a list of exciting open problems enabled by our results."
+    "abstract": "This article addresses the limitations of standard uncertainty models, i.e., robust (norm-bounded) and stochastic (one fixed distribution, e.g., Gaussian), and proposes to model uncertainty via optimal transport (OT) ambiguity sets. These constitute a very rich uncertainty model, which enjoys many desirable geometrical, statistical, and computational properties, and which naturally generalizes both robust and stochastic models, and captures many additional real-world uncertainty phenomena (e.g., black swan events). Our contributions show that OT ambiguity sets are also analytically tractable: they propagate easily and intuitively through linear and nonlinear (possibly corrupted by noise) transformations, and the result of the propagation is again an OT ambiguity set or can be upper bounded by an OT ambiguity set. In the context of dynamical systems, our results allow us to consider multiple sources of uncertainty (e.g., initial condition, additive noise, and multiplicative noise) and to capture in closed form, via an OT ambiguity set, the resulting uncertainty in the state at any future time. Our results are actionable, interpretable, and readily employable in a great variety of computationally tractable control and estimation formulations. To highlight this, we study three applications in trajectory planning, consensus algorithms, and least squares estimation."
   },
   {
     "type": "journal",
     "title": "First-order conditions for optimization in the Wasserstein space",
-    "authors": "N. Lanzetti, S. Bolognani, F. Dörfler",
+    "authors": "N. Lanzetti, S. Bolognani, and F. Dörfler",
     "venue": "SIAM Journal on Mathematics of Data Science",
     "year": "2025",
     "url_title": "https://epubs.siam.org/doi/10.1137/23M156687X",
@@ -38,7 +39,7 @@
     "year": "2024",
     "url_title": "https://epubs.siam.org/doi/10.1137/23M1560902",
     "url_paper": "https://arxiv.org/pdf/2302.13550.pdf",
-    "abstract": "We study discrete-time finite-horizon optimal control problems in probability spaces, whereby the state of the system is a probability measure. We show that, in many instances, the solution of dynamic programming in probability spaces results from two ingredients: (i) the solution of dynamic programming in the ground space and (ii) the solution of an optimal transport problem. From a multi-agent control perspective, a separation principle holds: low-level control of the agents of the fleet and fleet-level control are decoupled.",
+    "abstract": "We study discrete-time finite-horizon optimal control problems in probability spaces, whereby the state of the system is a probability measure. We show that, in many instances, the solution of dynamic programming in probability spaces results from two ingredients: (i) the solution of dynamic programming in the “ground space” (i.e., the space on which the probability measures live) and (ii) the solution of an optimal transport problem. From a multi-agent control perspective, a separation principle holds: “low-level control of the agents of the fleet” (how does one reach the destination?) and “fleet-level control” (who goes where?) are decoupled.",
     "notes": "featured in the most read articles in the SIAM Journal on Control and Optimization"
   },
   {
@@ -49,7 +50,7 @@
     "year": "2023",
     "url_title": "https://ieeexplore.ieee.org/document/10337616",
     "url_paper": "https://arxiv.org/pdf/2109.01627.pdf",
-    "abstract": "Cities worldwide struggle with overloaded transportation systems and their externalities, such as traffic congestion and emissions. The emerging autonomous transportation technology has a potential to alleviate these issues. Yet, the decisions of profit-maximizing operators running large autonomous fleets could have a negative impact on other stakeholders. We propose a unified framework to study the interplay among mobility service providers, public transport authorities, and customers, and apply it to data for the city of Berlin."
+    "abstract": "Worldwide, cities struggle with overloaded transportation systems and their externalities. The emerging autonomous transportation technology has the potential to alleviate these issues, but the decisions of profit-maximizing operators running large autonomous fleets could negatively impact other stakeholders and the transportation system. An analysis of these tradeoffs requires modeling the modes of transportation in a unified framework. In this article, we propose such a framework, which allows us to study the interplay among mobility service providers (MSPs), public transport authorities, and customers. Our framework combines a graph-theoretic network model for the transportation system with a game-theoretic market model in which MSPs are profit maximizers while customers select individually optimal transportation options. We apply our framework to data for the city of Berlin and present sensitivity analyses to study parameters that MSPs or municipalities can strategically influence. We show that autonomous ride-hailing systems may cannibalize a public transportation system, serving between 7% and 80% of all customers, depending on market conditions and policy restrictions."
   },
   {
     "type": "journal",
@@ -57,28 +58,28 @@
     "authors": "G. Zardini, N. Lanzetti, A. Censi, E. Frazzoli, and M. Pavone",
     "venue": "IEEE Transactions on Network Science and Engineering",
     "year": "2022",
-    "url_title": "https://arxiv.org/abs/2008.08975",
+    "url_title": "https://ieeexplore.ieee.org/document/9963724",
     "url_paper": "https://arxiv.org/pdf/2008.08975.pdf",
-    "abstract": "This paper presents a framework to co-design future mobility solutions and the mobility systems they enable. We frame and solve the problem of designing and deploying an intermodal mobility system where autonomous vehicles service travel demands jointly with public transit, and showcase a real-world case study for Washington D.C."
+    "abstract": "The design of future mobility solutions and the design of the mobility systems they enable are closely coupled. Indeed, knowledge about the intended service of novel mobility solutions would impact their design and deployment process, whilst insights about their technological development could significantly affect transportation management policies. This requires tools to study such a coupling and co-design mobility systems in terms of different objectives. We present a framework to address such co-design problems, leveraging a mathematical theory of co-design to frame and solve the problem of designing and deploying an intermodal mobility system, whereby autonomous vehicles service travel demands jointly with micromobility solutions and public transit, in terms of fleets sizing, vehicle characteristics, and public transit service frequency. Our framework is modular and compositional, allowing one to describe the design as the interconnection of simple components and to tackle it from a systemic perspective. Moreover, it requires general monotonicity assumptions and naturally handles multiple objectives, delivering rational, actionable solutions for policy makers. We showcase our methodology in a case study of Washington D.C., USA. Our work suggests the possibility to create user-friendly optimization tools to systematically assess costs and benefits of interventions, and to inform policy-making in the future."
   },
   {
     "type": "journal",
     "title": "Analysis and control of autonomous mobility-on-demand systems",
     "authors": "G. Zardini*, N. Lanzetti*, M. Pavone, and E. Frazzoli",
     "venue": "Annual Review of Control, Robotics, and Autonomous Systems",
-    "year": "2022",
+    "year": "2021",
     "url_title": "https://www.annualreviews.org/doi/abs/10.1146/annurev-control-042920-012811",
     "url_paper": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-control-042920-012811",
-    "abstract": "We provide a comprehensive review of methods and tools to model and solve problems related to Autonomous Mobility-on-Demand systems and survey modeling aspects, solution methods, and performance metrics."
+    "abstract": "Challenged by urbanization and increasing travel needs, existing transportation systems need new mobility paradigms. In this article, we present the emerging concept of autonomous mobility-on-demand, whereby centrally orchestrated fleets of autonomous vehicles provide mobility service to customers. We provide a comprehensive review of methods and tools to model and solve problems related to autonomous mobility-on-demand systems. Specifically, we first identify problem settings for their analysis and control, from both operational and planning perspectives. We then review modeling aspects, including transportation networks, transportation demand, congestion, operational constraints, and interactions with existing infrastructure. Thereafter, we provide a systematic analysis of existing solution methods and performance metrics, highlighting trends and trade-offs. Finally, we present various directions for further research."
   },
   {
     "type": "journal",
     "title": "Optimal low-level control strategies for a high-performance hybrid electric power unit",
-    "authors": "C. Balerna, N. Lanzetti, M. Salazar, A. Cerofolini, and C. Onder",
+    "authors": "C. Balerna, N. Lanzetti, M. Salazar, A. Cerofolini, and C. H. Onder",
     "venue": "Applied Energy",
     "year": "2020",
     "url_title": "https://www.sciencedirect.com/science/article/pii/S0306261920307601",
-    "abstract": "We present models and optimization algorithms to compute optimal low-level control strategies for hybrid electric powertrains and validate our approach on a high-fidelity simulator."
+    "abstract": "In this paper we present models and optimization algorithms to compute the optimal low-level control strategies for hybrid electric powertrains. Specifically, we study the minimum-fuel operation of a turbocharged internal combustion engine coupled to an electrical energy recovery system, consisting of a battery and two motors connected to the turbocharger and to the wheels, respectively. First, we combine physics-based modeling approaches with neural networks to identify a piecewise affine model of the power unit accounting for the internal dynamics of the engine, and formulate the minimum-fuel control problem for a given driving cycle. Second, we parse the control problem to a mixed-integer linear program that can be solved with off-the-shelf optimization algorithms that guarantee global optimality of the solution. Finally, we validate our model against a high fidelity nonlinear simulator and showcase the presented framework with a case-study for racing applications. Our results show that cylinder deactivation and turbocharger electrification can decrease fuel consumption up to 4% and 8%, respectively."
   },
   {
     "type": "journal",
@@ -88,6 +89,6 @@
     "year": "2019",
     "url_title": "https://ieeexplore.ieee.org/abstract/document/8894439",
     "url_paper": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8894439",
-    "abstract": "We study models and coordination policies for intermodal AMoD and design pricing and tolling schemes to recover social optimum under selfish agents, with case studies for NYC and Berlin."
+    "abstract": "In this paper we study models and coordination policies for intermodal Autonomous Mobility-on-Demand (AMoD), wherein a fleet of self-driving vehicles provides on-demand mobility jointly with public transit. Specifically, we first present a network flow model for intermodal AMoD, where we capture the coupling between AMoD and public transit and the goal is to maximize social welfare. Second, leveraging such a model, we design a pricing and tolling scheme that allows the system to recover a social optimum under the assumption of a perfect market with selfish agents. Third, we present real-world case studies for the transportation networks of New York City and Berlin, which allow us to quantify the general benefits of intermodal AMoD, as well as the societal impact of different vehicles. In particular, we show that vehicle size and powertrain type heavily affect intermodal routing decisions and, thus, system efficiency. Our studies reveal that the cooperation between AMoD fleets and public transit can yield significant benefits compared to an AMoD system operating in isolation, whilst our proposed tolling policies appear to be in line with recent discussions for the case of New York City."
   }
 ]
