@@ -1,0 +1,3 @@
+# GitHub Pages runs this repo through Jekyll. Keep repo-only files off the live site.
+exclude:
+  - CLAUDE.md

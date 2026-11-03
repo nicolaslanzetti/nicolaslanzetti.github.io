@@ -10,7 +10,7 @@
     "abstract": "Many emerging agentic paradigms require agents to collaborate with one another (or people) to achieve shared goals. Unfortunately, existing approaches to learning policies for such collaborative problems produce brittle solutions that fail when paired with new partners. We attribute these failures to a combination of free-riding during training and a lack of strategic robustness. To address these problems, we study the concept of strategic risk aversion and interpret it as a principled inductive bias for generalizable cooperation with unseen partners. While strategically risk-averse players are robust to deviations in their partner's behavior by design, we show that, in collaborative games, they also (1) can have better equilibrium outcomes than those at classical game-theoretic concepts like Nash, and (2) exhibit less or no free-riding. Inspired by these insights, we develop a multi-agent reinforcement learning (MARL) algorithm that integrates strategic risk aversion into standard policy optimization methods. Our empirical results across collaborative benchmarks (including an LLM collaboration task) validate our theory and demonstrate that our approach consistently achieves reliable collaboration with heterogeneous and previously unseen partners across collaborative tasks.",
     "notes": [
       "oral presentation (0.36%)",
-      "oral presentation at the Conference on Language Modeling (COLM) 2026"
+      "oral presentation at the Workshop on Agent Behavior at the Conference on Language Modeling (COLM) 2026"
     ]
   },
   {
@@ -19,6 +19,8 @@
     "authors": "L. Pezzetti, N. Lanzetti, A. Terpin, F. Dörfler, and G. Ramponi",
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "year": "2026",
+    "url_title": "https://openreview.net/forum?id=vbD3mscBAj",
+    "url_paper": "https://openreview.net/pdf?id=vbD3mscBAj",
     "notes": "oral presentation at the European Workshop on Reinforcement Learning (EWRL) 2026"
   },
   {

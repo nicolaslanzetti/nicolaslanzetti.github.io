@@ -15,12 +15,13 @@ python3 -m http.server   # then open http://localhost:8000/
 ## Layout
 
 - `index.html`: home page (bio, research interests, selected publications, news). Everything is hand-written HTML.
-- `publications.html`: empty `<ul>` containers that `scripts/render-publications.js` fills from `data/*.json`.
+- `publications.html`: empty `<ul>` containers that `scripts/render-publications.js` fills from `data/*.json`. When you change the script, bump its `?v=N` query string so browsers don't keep running a cached copy.
 - `teaching.html`: student projects and classes, hand-written. Links point to course material in `files/ta/<course>/`.
 - `404.html`: uses **absolute** paths (`/style.css`), because GitHub Pages serves it at arbitrary URLs. The other pages use relative paths.
 - `style.css`: the single stylesheet for every page.
 - `files/`: images, the portrait (`pic_lowres.jpg` is the one in use), selected-publication thumbnails (`files/selected/`), TA material, and talk media.
 - `sitemap.xml` and `robots.txt`: keep them in sync when pages are added or renamed.
+- `_config.yml`: GitHub Pages runs the repo through Jekyll, which would otherwise publish `CLAUDE.md` (and render it as `/CLAUDE.html`). List every repo-only file under `exclude`. Don't add `.nojekyll`, because then the raw Markdown would be served.
 
 The nav bar and the `<head>` block (meta description, canonical URL, Open Graph tags, favicon, Font Awesome, stylesheet) are copied into every page. When you change one, change all four pages. Set `aria-current="page"` on the active nav link.
 
@@ -52,6 +53,7 @@ Entry fields (all optional except `type` and `title`):
   "url_paper": "https://arxiv.org/pdf/XXXX.XXXXX.pdf",
   "code": "...", "slides": "...", "video": "...",
   "notes": "Best paper award",          // string or array, shown in bold
+  "status": "major revision at ...",    // inline after the year: "arXiv preprint, 2024 (major revision at ...)"
   "comment": "published in ...",        // plain text line below the venue
   "committee": ["..."],                 // dissertations only
   "abstract": "..."                     // HTML allowed; toggled by the Abstract button

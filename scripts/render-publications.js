@@ -72,7 +72,7 @@
       const titleLink = p.url_title || p.url || '';
       const title = titleLink ? `<a href="${titleLink}" target="_blank" rel="noopener noreferrer">${p.title}</a>` : p.title;
       let meta = `${p.authors || ''}`;
-      if (p.venue || p.year) meta += `<br>${p.venue || ''}${p.year ? ', ' + p.year : ''}`;
+      if (p.venue || p.year) meta += `<br>${p.venue || ''}${p.year ? ', ' + p.year : ''}${p.status ? ' (' + p.status + ')' : ''}`;
       meta = highlightOwner(meta);
 
       const committeeHTML = p.committee
