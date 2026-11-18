@@ -1,6 +1,16 @@
 [
   {
     "type": "preprint",
+    "title": "Strategically robust multi-agent control",
+    "authors": "B. Velasevic, N. Lanzetti, and E. Mazumdar",
+    "venue": "arXiv preprint",
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2611.16388",
+    "url_paper": "https://arxiv.org/pdf/2611.16388",
+    "abstract": "A key source of uncertainty in multi-agent systems is the behavior of other agents. Game-theoretic control approaches ignore this uncertainty, while robust control approaches treat others as fully adversarial. In this paper, we introduce strategically robust multi-agent control to populate the spectrum between these two paradigms. Specifically, in dynamic games, we propose that players are strategically robust and seek protection against misspecified control policies of the other players. This formulation induces a novel equilibrium concept, strategically robust dynamic equilibrium, that interpolates between game-theoretic control and robust control. We study this concept across canonical open- and closed-loop settings and show that accounting for strategic robustness also has computational benefits over classic approaches in game-theoretic control. Numerical experiments on vehicle platooning, inventory management, and network control illustrate resilience to misspecification, and also exhibit a “free-lunch” phenomenon in which strategic robustness can improve performance or social welfare."
+  },
+  {
+    "type": "preprint",
     "title": "Sparse optimal control in the Wasserstein space",
     "authors": "E. Sartor, F. Dörfler, and N. Lanzetti",
     "venue": "arXiv preprint",

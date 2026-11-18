@@ -6,7 +6,7 @@
     "venue": "Doctoral Thesis, ETH Z&uuml;rich",
     "year": "2025",
     "url_title": "https://doi.org/10.3929/ethz-c-000790959",
-    "url_paper": "https://www.research-collection.ethz.ch/bitstreams/035304fc-8d57-4929-8b44-61ac0366aa2a/download",
+    "notes": "ETH Medal",
     "committee": ["F. D\u00f6rfler", "A. Figalli", "D. Kuhn", "J. Karlsson"]
   },
   {
@@ -16,6 +16,7 @@
     "venue": "Master's Thesis, ETH Z&uuml;rich",
     "year": "2019",
     "url_title": "https://www.research-collection.ethz.ch/handle/20.500.11850/419508",
+    "notes": ["ETH Medal", "Swiss Operations Research Society (SVOR/ASRO) Prize"],
     "committee": ["M. Schiffer", "M. Pavone", "E. Frazzoli"]
   }
 ]

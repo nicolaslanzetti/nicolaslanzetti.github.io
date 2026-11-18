@@ -75,15 +75,16 @@
       if (p.venue || p.year) meta += `<br>${p.venue || ''}${p.year ? ', ' + p.year : ''}${p.status ? ' (' + p.status + ')' : ''}`;
       meta = highlightOwner(meta);
 
+      // a block element, not a leading <br>, so it stacks with the notes <div> without a blank line
       const committeeHTML = p.committee
-        ? `<br><em class="committee">Committee: ${Array.isArray(p.committee) ? p.committee.join(', ') : p.committee}</em>`
+        ? `<div><em class="committee">Committee: ${Array.isArray(p.committee) ? p.committee.join(', ') : p.committee}</em></div>`
         : '';
 
       const container = document.createElement('div');
       const notesText = p.notes ? (Array.isArray(p.notes) ? p.notes.join('<br>') : p.notes) : null;
       const notesHTML = notesText ? `<div class="notes" style="font-weight:700; margin-top:0">${notesText}</div>` : '';
       const commentHTML = p.comment ? `<br>${p.comment}` : '';
-      container.innerHTML = `<em>${title}</em><br>${meta}${commentHTML}${notesHTML}${committeeHTML}`;
+      container.innerHTML = `<em>${title}</em><br>${meta}${commentHTML}${committeeHTML}${notesHTML}`;
 
       const resources = document.createElement('div');
       resources.style.marginTop = '0';

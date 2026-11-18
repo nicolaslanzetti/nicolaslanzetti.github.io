@@ -14,7 +14,9 @@
     "title": "Strategically robust game-theoretic multi-agent trajectory optimization",
     "authors": "V. L. Qin, N. Lanzetti, S. Bolognani, and H. Balakrishnan",
     "venue": "IEEE Conference on Decision and Control (CDC)",
-    "year": "2026"
+    "year": "2026",
+    "url_title": "https://arxiv.org/abs/2609.35142",
+    "url_paper": "https://arxiv.org/pdf/2609.35142"
   },
   {
     "type": "control_conference",
